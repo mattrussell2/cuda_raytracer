@@ -1,0 +1,4558 @@
+<scenefile>				<globaldata>
+				<diffusecoeff v = "0.5" />
+				<specularcoeff v = "0.75" />
+				<ambientcoeff v = "0.5" />
+				</globaldata>
+
+				<cameradata>
+				<pos x = "0" y = "0.5" z = "3.0" />
+				<focus x = "0" y = "0.25" z = "-5" />
+				<up x = "0" y = "1" z = "0" />
+				</cameradata>
+
+				<lightdata>
+				<id v = "0" />
+				<type id = "directional" />
+				<color r = "1" g = "1" b = "1" />
+				<direction x = "0" y = "-2" z = "2" />
+				</lightdata>
+				<lightdata>
+				<id v = "1" />
+				<type id = "point" />
+				<color r = "1" g = "1" b = "1" />
+				<position x = "0" y = "5" z = "-5" />
+				</lightdata>
+				<object type = "tree" name = "root">
+				
+		<transblock name = "floor">
+				
+			<translate x = "0" y = "-3" z = "-5" />
+				
+			<scale x = "20" y = "5" z = "20" />
+				
+			<object type = "primitive" name = "cube">
+				
+			<ambient r = ".5" g = "0.5" b = "0.5" />
+				
+			<diffuse r = "0.5" g = "0.5" b = "0.5" />
+				
+			</object></transblock>
+				
+		<transblock name = "bigSphere">
+				
+			<translate x = "0" y = "-3" z = "-5" />
+				
+			<scale x = "5" y = "5" z = "5" />
+				
+			<object type = "primitive" name = "sphere">
+				
+			<ambient r = ".5" g = "0.5" b = "0.5" />
+				
+			<diffuse r = "0.5" g = "0.5" b = "0.5" />
+				
+			<reflective r = "1" g = "1" b = "1" />
+				
+			</object></transblock>
+ 
+				<transblock name="sphere">	
+					<scale x="0.133682" y="0.133682" z="0.133682"/>	
+					<translate x="-27.319254" y="-2.25" z="-12.704124"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.734367" g=" 0.984069" b=" 0.615741"/>	
+					<reflective r=" 0.734367" g=" 0.984069" b=" 0.615741"/>	
+					<shininess value=" 6"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.151866" y="0.151866" z="0.151866"/>	
+					<translate x="24.777672" y="-2.25" z="-31.766136"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.894406" g=" 0.811701" b=" 0.557543"/>	
+					<reflective r=" 0.894406" g=" 0.811701" b=" 0.557543"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.171241" y="0.171241" z="0.171241"/>	
+					<translate x="-5.679190" y="-2.25" z="-36.112309"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.396344" g=" 0.21366" b=" 0.600635"/>	
+					<reflective r=" 0.396344" g=" 0.21366" b=" 0.600635"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.181611" y="0.181611" z="0.181611"/>	
+					<translate x="-3.796808" y="-2.25" z="-3.720634"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.513321" g=" 0.812189" b=" 0.554216"/>	
+					<reflective r=" 0.513321" g=" 0.812189" b=" 0.554216"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.131825" y="0.131825" z="0.131825"/>	
+					<translate x="0.513626" y="-2.25" z="-25.708670"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0473342" g=" 0.267617" b=" 0.237922"/>	
+					<reflective r=" 0.0473342" g=" 0.267617" b=" 0.237922"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.151702" y="0.151702" z="0.151702"/>	
+					<translate x="-2.234871" y="-2.25" z="-2.196968"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.114505" g=" 0.923154" b=" 0.548173"/>	
+					<reflective r=" 0.114505" g=" 0.923154" b=" 0.548173"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.180182" y="0.180182" z="0.180182"/>	
+					<translate x="21.633656" y="-2.25" z="-20.565081"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.555132" g=" 0.574114" b=" 0.14948"/>	
+					<reflective r=" 0.555132" g=" 0.574114" b=" 0.14948"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.109745" y="0.109745" z="0.109745"/>	
+					<translate x="29.186985" y="-2.25" z="-38.059753"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.968963" g=" 0.362712" b=" 0.791101"/>	
+					<reflective r=" 0.968963" g=" 0.362712" b=" 0.791101"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.147087" y="0.147087" z="0.147087"/>	
+					<translate x="-1.370586" y="-2.25" z="-34.802147"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.375256" g=" 0.79754" b=" 0.248177"/>	
+					<reflective r=" 0.375256" g=" 0.79754" b=" 0.248177"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.160010" y="0.160010" z="0.160010"/>	
+					<translate x="4.525589" y="-2.25" z="-1.153690"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.498032" g=" 0.897946" b=" 0.888302"/>	
+					<reflective r=" 0.498032" g=" 0.897946" b=" 0.888302"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.120607" y="0.120607" z="0.120607"/>	
+					<translate x="-29.457991" y="-2.25" z="-24.468061"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.676199" g=" 0.463698" b=" 0.86288"/>	
+					<reflective r=" 0.676199" g=" 0.463698" b=" 0.86288"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.114667" y="0.114667" z="0.114667"/>	
+					<translate x="-0.321360" y="-2.25" z="1.798210"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.398633" g=" 0.469588" b=" 0.923521"/>	
+					<reflective r=" 0.398633" g=" 0.469588" b=" 0.923521"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.127343" y="0.127343" z="0.127343"/>	
+					<translate x="22.001709" y="-2.25" z="-13.417431"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.46437" g=" 0.584735" b=" 0.863491"/>	
+					<reflective r=" 0.46437" g=" 0.584735" b=" 0.863491"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.175059" y="0.175059" z="0.175059"/>	
+					<translate x="19.877621" y="-2.25" z="-1.656727"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.767876" g=" 0.817347" b=" 0.584033"/>	
+					<reflective r=" 0.767876" g=" 0.817347" b=" 0.584033"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.183678" y="0.183678" z="0.183678"/>	
+					<translate x="-9.286478" y="-2.25" z="-7.180424"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.709037" g=" 0.284036" b=" 0.785943"/>	
+					<reflective r=" 0.709037" g=" 0.284036" b=" 0.785943"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.122920" y="0.122920" z="0.122920"/>	
+					<translate x="7.188026" y="-2.25" z="-28.592638"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.228401" g=" 0.104648" b=" 0.285684"/>	
+					<reflective r=" 0.228401" g=" 0.104648" b=" 0.285684"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.137029" y="0.137029" z="0.137029"/>	
+					<translate x="14.979401" y="-2.25" z="-12.836758"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.46733" g=" 0.421461" b=" 0.957152"/>	
+					<reflective r=" 0.46733" g=" 0.421461" b=" 0.957152"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.141669" y="0.141669" z="0.141669"/>	
+					<translate x="28.013245" y="-2.25" z="-1.569386"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0531632" g=" 0.54387" b=" 0.297739"/>	
+					<reflective r=" 0.0531632" g=" 0.54387" b=" 0.297739"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.157105" y="0.157105" z="0.157105"/>	
+					<translate x="1.181982" y="-2.25" z="-5.899380"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.00930815" g=" 0.218024" b=" 0.620075"/>	
+					<reflective r=" 0.00930815" g=" 0.218024" b=" 0.620075"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.167614" y="0.167614" z="0.167614"/>	
+					<translate x="-19.407024" y="-2.25" z="-33.516251"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.290536" g=" 0.0211188" b=" 0.868099"/>	
+					<reflective r=" 0.290536" g=" 0.0211188" b=" 0.868099"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.137144" y="0.137144" z="0.137144"/>	
+					<translate x="-8.707846" y="-2.25" z="-3.180393"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.942961" g=" 0.881222" b=" 0.0586871"/>	
+					<reflective r=" 0.942961" g=" 0.881222" b=" 0.0586871"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.181235" y="0.181235" z="0.181235"/>	
+					<translate x="22.505264" y="-2.25" z="-23.601093"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.889309" g=" 0.721397" b=" 0.348033"/>	
+					<reflective r=" 0.889309" g=" 0.721397" b=" 0.348033"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.155172" y="0.155172" z="0.155172"/>	
+					<translate x="-9.636219" y="-2.25" z="-29.673117"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.339061" g=" 0.229713" b=" 0.722983"/>	
+					<reflective r=" 0.339061" g=" 0.229713" b=" 0.722983"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.138415" y="0.138415" z="0.138415"/>	
+					<translate x="-21.846066" y="-2.25" z="-48.107548"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.823603" g=" 0.753471" b=" 0.317454"/>	
+					<reflective r=" 0.823603" g=" 0.753471" b=" 0.317454"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.125249" y="0.125249" z="0.125249"/>	
+					<translate x="-25.962402" y="-2.25" z="-32.417984"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.856349" g=" 0.318705" b=" 0.353954"/>	
+					<reflective r=" 0.856349" g=" 0.318705" b=" 0.353954"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.151705" y="0.151705" z="0.151705"/>	
+					<translate x="6.294441" y="-2.25" z="-9.304176"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.217933" g=" 0.774926" b=" 0.709769"/>	
+					<reflective r=" 0.217933" g=" 0.774926" b=" 0.709769"/>	
+					<shininess value=" 8"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.158721" y="0.158721" z="0.158721"/>	
+					<translate x="16.045105" y="-2.25" z="-6.386242"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.866421" g=" 0.0645161" b=" 0.108554"/>	
+					<reflective r=" 0.866421" g=" 0.0645161" b=" 0.108554"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.141558" y="0.141558" z="0.141558"/>	
+					<translate x="7.502975" y="-2.25" z="-26.334635"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.472304" g=" 0.617267" b=" 0.936796"/>	
+					<reflective r=" 0.472304" g=" 0.617267" b=" 0.936796"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.175468" y="0.175468" z="0.175468"/>	
+					<translate x="-4.305857" y="-2.25" z="-14.355572"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.578814" g=" 0.869961" b=" 0.684927"/>	
+					<reflective r=" 0.578814" g=" 0.869961" b=" 0.684927"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.157596" y="0.157596" z="0.157596"/>	
+					<translate x="-8.297678" y="-2.25" z="-31.075472"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.386975" g=" 0.910764" b=" 0.0139775"/>	
+					<reflective r=" 0.386975" g=" 0.910764" b=" 0.0139775"/>	
+					<shininess value=" 6"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.165156" y="0.165156" z="0.165156"/>	
+					<translate x="25.389263" y="-2.25" z="-47.775963"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.165868" g=" 0.249001" b=" 0.447005"/>	
+					<reflective r=" 0.165868" g=" 0.249001" b=" 0.447005"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.129840" y="0.129840" z="0.129840"/>	
+					<translate x="25.645618" y="-2.25" z="-0.019836"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.287698" g=" 0.709525" b=" 0.685293"/>	
+					<reflective r=" 0.287698" g=" 0.709525" b=" 0.685293"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.148485" y="0.148485" z="0.148485"/>	
+					<translate x="-21.888180" y="-2.25" z="-46.651814"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.887967" g=" 0.452162" b=" 0.549913"/>	
+					<reflective r=" 0.887967" g=" 0.452162" b=" 0.549913"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.149980" y="0.149980" z="0.149980"/>	
+					<translate x="0.422071" y="-2.25" z="-27.154697"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.150578" g=" 0.116428" b=" 0.548143"/>	
+					<reflective r=" 0.150578" g=" 0.116428" b=" 0.548143"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.138441" y="0.138441" z="0.138441"/>	
+					<translate x="-25.066988" y="-2.25" z="-25.412672"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.218146" g=" 0.0910672" b=" 0.0646992"/>	
+					<reflective r=" 0.218146" g=" 0.0910672" b=" 0.0646992"/>	
+					<shininess value=" 8"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.122615" y="0.122615" z="0.122615"/>	
+					<translate x="-1.037325" y="-2.25" z="-25.825129"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.727103" g=" 0.908353" b=" 0.178442"/>	
+					<reflective r=" 0.727103" g=" 0.908353" b=" 0.178442"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.151550" y="0.151550" z="0.151550"/>	
+					<translate x="-27.487717" y="-2.25" z="-39.800163"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.96762" g=" 0.763848" b=" 0.103458"/>	
+					<reflective r=" 0.96762" g=" 0.763848" b=" 0.103458"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.166503" y="0.166503" z="0.166503"/>	
+					<translate x="3.525803" y="-2.25" z="-13.624470"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.669118" g=" 0.160802" b=" 0.255745"/>	
+					<reflective r=" 0.669118" g=" 0.160802" b=" 0.255745"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.129113" y="0.129113" z="0.129113"/>	
+					<translate x="10.593891" y="-2.25" z="-47.720970"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.41023" g=" 0.6798" b=" 0.944365"/>	
+					<reflective r=" 0.41023" g=" 0.6798" b=" 0.944365"/>	
+					<shininess value=" 6"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.145808" y="0.145808" z="0.145808"/>	
+					<translate x="23.212074" y="-2.25" z="-26.255379"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.653981" g=" 0.873226" b=" 0.687979"/>	
+					<reflective r=" 0.653981" g=" 0.873226" b=" 0.687979"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.148474" y="0.148474" z="0.148474"/>	
+					<translate x="-20.498367" y="-2.25" z="-35.143436"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.40788" g=" 0.284707" b=" 0.156377"/>	
+					<reflective r=" 0.40788" g=" 0.284707" b=" 0.156377"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.131362" y="0.131362" z="0.131362"/>	
+					<translate x="-18.546402" y="-2.25" z="-31.413527"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.509262" g=" 0.59386" b=" 0.736717"/>	
+					<reflective r=" 0.509262" g=" 0.59386" b=" 0.736717"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.164259" y="0.164259" z="0.164259"/>	
+					<translate x="-12.346264" y="-2.25" z="-35.960266"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.535295" g=" 0.885586" b=" 0.724815"/>	
+					<reflective r=" 0.535295" g=" 0.885586" b=" 0.724815"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.141900" y="0.141900" z="0.141900"/>	
+					<translate x="23.525192" y="-2.25" z="-1.658344"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.338115" g=" 0.0447707" b=" 0.141881"/>	
+					<reflective r=" 0.338115" g=" 0.0447707" b=" 0.141881"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.159632" y="0.159632" z="0.159632"/>	
+					<translate x="9.052094" y="-2.25" z="-45.868954"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.205084" g=" 0.275765" b=" 0.175695"/>	
+					<reflective r=" 0.205084" g=" 0.275765" b=" 0.175695"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.185322" y="0.185322" z="0.185322"/>	
+					<translate x="-15.971862" y="-2.25" z="-40.293495"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.643941" g=" 0.74691" b=" 0.247078"/>	
+					<reflective r=" 0.643941" g=" 0.74691" b=" 0.247078"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.127534" y="0.127534" z="0.127534"/>	
+					<translate x="10.782494" y="-2.25" z="-42.240944"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.79281" g=" 0.359996" b=" 0.701285"/>	
+					<reflective r=" 0.79281" g=" 0.359996" b=" 0.701285"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.149935" y="0.149935" z="0.149935"/>	
+					<translate x="-5.591295" y="-2.25" z="-30.231148"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.45555" g=" 0.644978" b=" 0.124363"/>	
+					<reflective r=" 0.45555" g=" 0.644978" b=" 0.124363"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.181957" y="0.181957" z="0.181957"/>	
+					<translate x="20.516678" y="-2.25" z="-4.002075"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.761834" g=" 0.77929" b=" 0.284707"/>	
+					<reflective r=" 0.761834" g=" 0.77929" b=" 0.284707"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.185710" y="0.185710" z="0.185710"/>	
+					<translate x="10.443741" y="-2.25" z="-24.878902"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.452254" g=" 0.732505" b=" 0.699301"/>	
+					<reflective r=" 0.452254" g=" 0.732505" b=" 0.699301"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.159159" y="0.159159" z="0.159159"/>	
+					<translate x="14.012573" y="-2.25" z="-37.511429"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.788507" g=" 0.535936" b=" 0.82519"/>	
+					<reflective r=" 0.788507" g=" 0.535936" b=" 0.82519"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.135523" y="0.135523" z="0.135523"/>	
+					<translate x="-0.253609" y="-2.25" z="-3.005707"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0885647" g=" 0.676931" b=" 0.875942"/>	
+					<reflective r=" 0.0885647" g=" 0.676931" b=" 0.875942"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.118947" y="0.118947" z="0.118947"/>	
+					<translate x="-17.383648" y="-2.25" z="-25.420759"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.886959" g=" 0.618671" b=" 0.262917"/>	
+					<reflective r=" 0.886959" g=" 0.618671" b=" 0.262917"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.146415" y="0.146415" z="0.146415"/>	
+					<translate x="9.268166" y="-2.25" z="-47.628773"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.719626" g=" 0.444472" b=" 0.661885"/>	
+					<reflective r=" 0.719626" g=" 0.444472" b=" 0.661885"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.155910" y="0.155910" z="0.155910"/>	
+					<translate x="0.758995" y="-2.25" z="-17.566273"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.534318" g=" 0.627491" b=" 0.704184"/>	
+					<reflective r=" 0.534318" g=" 0.627491" b=" 0.704184"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.160833" y="0.160833" z="0.160833"/>	
+					<translate x="-7.206335" y="-2.25" z="-47.868160"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.7257" g=" 0.925138" b=" 0.293283"/>	
+					<reflective r=" 0.7257" g=" 0.925138" b=" 0.293283"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.110666" y="0.110666" z="0.110666"/>	
+					<translate x="-6.543474" y="-2.25" z="-38.837765"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.795526" g=" 0.398694" b=" 0.546159"/>	
+					<reflective r=" 0.795526" g=" 0.398694" b=" 0.546159"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.127887" y="0.127887" z="0.127887"/>	
+					<translate x="-1.553698" y="-2.25" z="-36.843410"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.637684" g=" 0.557817" b=" 0.359722"/>	
+					<reflective r=" 0.637684" g=" 0.557817" b=" 0.359722"/>	
+					<shininess value=" 8"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.181131" y="0.181131" z="0.181131"/>	
+					<translate x="-16.189764" y="-2.25" z="-3.046143"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.448469" g=" 0.630024" b=" 0.602161"/>	
+					<reflective r=" 0.448469" g=" 0.630024" b=" 0.602161"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.154599" y="0.154599" z="0.154599"/>	
+					<translate x="-3.818781" y="-2.25" z="0.463791"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.261696" g=" 0.955229" b=" 0.929411"/>	
+					<reflective r=" 0.261696" g=" 0.955229" b=" 0.929411"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.123738" y="0.123738" z="0.123738"/>	
+					<translate x="-19.491257" y="-2.25" z="2.186405"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.10889" g=" 0.505387" b=" 0.226447"/>	
+					<reflective r=" 0.10889" g=" 0.505387" b=" 0.226447"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.167145" y="0.167145" z="0.167145"/>	
+					<translate x="5.296486" y="-2.25" z="1.329144"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.804376" g=" 0.528886" b=" 0.67394"/>	
+					<reflective r=" 0.804376" g=" 0.528886" b=" 0.67394"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.114723" y="0.114723" z="0.114723"/>	
+					<translate x="-14.671773" y="-2.25" z="-39.434616"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.355419" g=" 0.320139" b=" 0.439344"/>	
+					<reflective r=" 0.355419" g=" 0.320139" b=" 0.439344"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.142116" y="0.142116" z="0.142116"/>	
+					<translate x="-18.081303" y="-2.25" z="-35.583393"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.99762" g=" 0.114109" b=" 0.99353"/>	
+					<reflective r=" 0.99762" g=" 0.114109" b=" 0.99353"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.181349" y="0.181349" z="0.181349"/>	
+					<translate x="0.628986" y="-2.25" z="-39.754875"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.85464" g=" 0.105899" b=" 0.0520951"/>	
+					<reflective r=" 0.85464" g=" 0.105899" b=" 0.0520951"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.147760" y="0.147760" z="0.147760"/>	
+					<translate x="6.514175" y="-2.25" z="-17.102055"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.223792" g=" 0.595172" b=" 0.14185"/>	
+					<reflective r=" 0.223792" g=" 0.595172" b=" 0.14185"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.163161" y="0.163161" z="0.163161"/>	
+					<translate x="-23.146152" y="-2.25" z="-38.051666"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.485916" g=" 0.255715" b=" 0.792108"/>	
+					<reflective r=" 0.485916" g=" 0.255715" b=" 0.792108"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.125241" y="0.125241" z="0.125241"/>	
+					<translate x="-8.614460" y="-2.25" z="-40.419659"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.640675" g=" 0.530045" b=" 0.351146"/>	
+					<reflective r=" 0.640675" g=" 0.530045" b=" 0.351146"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.133243" y="0.133243" z="0.133243"/>	
+					<translate x="0.037539" y="-2.25" z="-8.904659"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.466597" g=" 0.148808" b=" 0.427656"/>	
+					<reflective r=" 0.466597" g=" 0.148808" b=" 0.427656"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.169875" y="0.169875" z="0.169875"/>	
+					<translate x="-11.831720" y="-2.25" z="-41.969208"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.306375" g=" 0.775536" b=" 0.957091"/>	
+					<reflective r=" 0.306375" g=" 0.775536" b=" 0.957091"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.179468" y="0.179468" z="0.179468"/>	
+					<translate x="-0.702230" y="-2.25" z="-41.073120"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.476882" g=" 0.775872" b=" 0.893124"/>	
+					<reflective r=" 0.476882" g=" 0.775872" b=" 0.893124"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.152395" y="0.152395" z="0.152395"/>	
+					<translate x="15.340130" y="-2.25" z="-29.299479"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.304422" g=" 0.112339" b=" 0.523972"/>	
+					<reflective r=" 0.304422" g=" 0.112339" b=" 0.523972"/>	
+					<shininess value=" 6"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.155737" y="0.155737" z="0.155737"/>	
+					<translate x="-5.662710" y="-2.25" z="-39.360210"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.784875" g=" 0.363811" b=" 0.413862"/>	
+					<reflective r=" 0.784875" g=" 0.363811" b=" 0.413862"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.150190" y="0.150190" z="0.150190"/>	
+					<translate x="5.704826" y="-2.25" z="-47.950653"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.86877" g=" 0.869991" b=" 0.969512"/>	
+					<reflective r=" 0.86877" g=" 0.869991" b=" 0.969512"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.163239" y="0.163239" z="0.163239"/>	
+					<translate x="-17.052217" y="-2.25" z="-9.506363"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.371563" g=" 0.000915555" b=" 0.631306"/>	
+					<reflective r=" 0.371563" g=" 0.000915555" b=" 0.631306"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.178561" y="0.178561" z="0.178561"/>	
+					<translate x="-6.089357" y="-2.25" z="-42.325054"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.508682" g=" 0.551744" b=" 0.689962"/>	
+					<reflective r=" 0.508682" g=" 0.551744" b=" 0.689962"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.151699" y="0.151699" z="0.151699"/>	
+					<translate x="8.504593" y="-2.25" z="-25.053591"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0557878" g=" 0.261849" b=" 0.727805"/>	
+					<reflective r=" 0.0557878" g=" 0.261849" b=" 0.727805"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.141969" y="0.141969" z="0.141969"/>	
+					<translate x="3.941467" y="-2.25" z="-34.567612"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.133854" g=" 0.459792" b=" 0.685171"/>	
+					<reflective r=" 0.133854" g=" 0.459792" b=" 0.685171"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.170629" y="0.170629" z="0.170629"/>	
+					<translate x="-12.531204" y="-2.25" z="-35.214607"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.619373" g=" 0.832575" b=" 0.551836"/>	
+					<reflective r=" 0.619373" g=" 0.832575" b=" 0.551836"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.145284" y="0.145284" z="0.145284"/>	
+					<translate x="-3.390301" y="-2.25" z="-38.436630"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.179418" g=" 0.320139" b=" 0.683401"/>	
+					<reflective r=" 0.179418" g=" 0.320139" b=" 0.683401"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.150568" y="0.150568" z="0.150568"/>	
+					<translate x="16.889248" y="-2.25" z="-43.762993"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.931974" g=" 0.135228" b=" 0.742759"/>	
+					<reflective r=" 0.931974" g=" 0.135228" b=" 0.742759"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.175041" y="0.175041" z="0.175041"/>	
+					<translate x="-2.928862" y="-2.25" z="-26.184210"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.730857" g=" 0.90759" b=" 0.266457"/>	
+					<reflective r=" 0.730857" g=" 0.90759" b=" 0.266457"/>	
+					<shininess value=" 6"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.114352" y="0.114352" z="0.114352"/>	
+					<translate x="21.899166" y="-2.25" z="-22.895870"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0760521" g=" 0.953581" b=" 0.856105"/>	
+					<reflective r=" 0.0760521" g=" 0.953581" b=" 0.856105"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.170674" y="0.170674" z="0.170674"/>	
+					<translate x="-17.685781" y="-2.25" z="-1.422192"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.648976" g=" 0.670766" b=" 0.99472"/>	
+					<reflective r=" 0.648976" g=" 0.670766" b=" 0.99472"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.148345" y="0.148345" z="0.148345"/>	
+					<translate x="3.216347" y="-2.25" z="-39.114353"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.472182" g=" 0.0574053" b=" 0.488266"/>	
+					<reflective r=" 0.472182" g=" 0.0574053" b=" 0.488266"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.145790" y="0.145790" z="0.145790"/>	
+					<translate x="8.667561" y="-2.25" z="-19.009064"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.695059" g=" 0.357097" b=" 0.531999"/>	
+					<reflective r=" 0.695059" g=" 0.357097" b=" 0.531999"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.163694" y="0.163694" z="0.163694"/>	
+					<translate x="-15.352946" y="-2.25" z="-8.094303"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.00360118" g=" 0.828089" b=" 0.401776"/>	
+					<reflective r=" 0.00360118" g=" 0.828089" b=" 0.401776"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.149400" y="0.149400" z="0.149400"/>	
+					<translate x="-20.714439" y="-2.25" z="-45.914242"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.655782" g=" 0.637959" b=" 0.770684"/>	
+					<reflective r=" 0.655782" g=" 0.637959" b=" 0.770684"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.187587" y="0.187587" z="0.187587"/>	
+					<translate x="20.586262" y="-2.25" z="-32.570023"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.141575" g=" 0.883145" b=" 0.650136"/>	
+					<reflective r=" 0.141575" g=" 0.883145" b=" 0.650136"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.137173" y="0.137173" z="0.137173"/>	
+					<translate x="11.670582" y="-2.25" z="-34.096928"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.468184" g=" 0.733421" b=" 0.956633"/>	
+					<reflective r=" 0.468184" g=" 0.733421" b=" 0.956633"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.164493" y="0.164493" z="0.164493"/>	
+					<translate x="23.506882" y="-2.25" z="1.801445"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0701926" g=" 0.701498" b=" 0.702811"/>	
+					<reflective r=" 0.0701926" g=" 0.701498" b=" 0.702811"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.172696" y="0.172696" z="0.172696"/>	
+					<translate x="25.153049" y="-2.25" z="-46.384930"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.344676" g=" 0.0374462" b=" 0.814234"/>	
+					<reflective r=" 0.344676" g=" 0.0374462" b=" 0.814234"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.167418" y="0.167418" z="0.167418"/>	
+					<translate x="11.474655" y="-2.25" z="-17.443344"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.811457" g=" 0.24836" b=" 0.57036"/>	
+					<reflective r=" 0.811457" g=" 0.24836" b=" 0.57036"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.158703" y="0.158703" z="0.158703"/>	
+					<translate x="-11.599171" y="-2.25" z="-11.340588"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.898129" g=" 0.742821" b=" 0.671407"/>	
+					<reflective r=" 0.898129" g=" 0.742821" b=" 0.671407"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.109153" y="0.109153" z="0.109153"/>	
+					<translate x="-4.360790" y="-2.25" z="-25.443403"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.350261" g=" 0.60036" b=" 0.92935"/>	
+					<reflective r=" 0.350261" g=" 0.60036" b=" 0.92935"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.118352" y="0.118352" z="0.118352"/>	
+					<translate x="-13.080538" y="-2.25" z="-8.149296"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.266701" g=" 0.46614" b=" 0.584582"/>	
+					<reflective r=" 0.266701" g=" 0.46614" b=" 0.584582"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.123524" y="0.123524" z="0.123524"/>	
+					<translate x="-12.267525" y="-2.25" z="-11.888912"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.759453" g=" 0.57036" b=" 0.247291"/>	
+					<reflective r=" 0.759453" g=" 0.57036" b=" 0.247291"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.126454" y="0.126454" z="0.126454"/>	
+					<translate x="-9.447615" y="-2.25" z="-21.483810"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.239021" g=" 0.87286" b=" 0.463729"/>	
+					<reflective r=" 0.239021" g=" 0.87286" b=" 0.463729"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.146643" y="0.146643" z="0.146643"/>	
+					<translate x="7.579884" y="-2.25" z="-40.901669"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.324595" g=" 0.332591" b=" 0.907804"/>	
+					<reflective r=" 0.324595" g=" 0.332591" b=" 0.907804"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.180733" y="0.180733" z="0.180733"/>	
+					<translate x="-19.026154" y="-2.25" z="-14.376598"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.37907" g=" 0.302225" b=" 0.197272"/>	
+					<reflective r=" 0.37907" g=" 0.302225" b=" 0.197272"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.118156" y="0.118156" z="0.118156"/>	
+					<translate x="-29.414045" y="-2.25" z="-5.902615"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.669332" g=" 0.0475784" b=" 0.335429"/>	
+					<reflective r=" 0.669332" g=" 0.0475784" b=" 0.335429"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.113067" y="0.113067" z="0.113067"/>	
+					<translate x="19.198280" y="-2.25" z="-1.106785"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.15125" g=" 0.392315" b=" 0.777215"/>	
+					<reflective r=" 0.15125" g=" 0.392315" b=" 0.777215"/>	
+					<shininess value=" 8"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.142495" y="0.142495" z="0.142495"/>	
+					<translate x="-4.754478" y="-2.25" z="-20.493912"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.880093" g=" 0.487289" b=" 0.120792"/>	
+					<reflective r=" 0.880093" g=" 0.487289" b=" 0.120792"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.160755" y="0.160755" z="0.160755"/>	
+					<translate x="13.069553" y="-2.25" z="-14.067661"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0453505" g=" 0.7051" b=" 0.424024"/>	
+					<reflective r=" 0.0453505" g=" 0.7051" b=" 0.424024"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.160123" y="0.160123" z="0.160123"/>	
+					<translate x="-9.363384" y="-2.25" z="-14.326458"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.631245" g=" 0.65981" b=" 0.145573"/>	
+					<reflective r=" 0.631245" g=" 0.65981" b=" 0.145573"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.187746" y="0.187746" z="0.187746"/>	
+					<translate x="24.777672" y="-2.25" z="-17.639057"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.701559" g=" 0.351299" b=" 0.711692"/>	
+					<reflective r=" 0.701559" g=" 0.351299" b=" 0.711692"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.168797" y="0.168797" z="0.168797"/>	
+					<translate x="23.924374" y="-2.25" z="-17.983582"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.309976" g=" 0.434767" b=" 0.707358"/>	
+					<reflective r=" 0.309976" g=" 0.434767" b=" 0.707358"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.135902" y="0.135902" z="0.135902"/>	
+					<translate x="-21.661121" y="-2.25" z="-34.072662"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0353099" g=" 0.615467" b=" 0.69277"/>	
+					<reflective r=" 0.0353099" g=" 0.615467" b=" 0.69277"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.144800" y="0.144800" z="0.144800"/>	
+					<translate x="27.857601" y="-2.25" z="-23.846951"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.141484" g=" 0.168004" b=" 0.644795"/>	
+					<reflective r=" 0.141484" g=" 0.168004" b=" 0.644795"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.166251" y="0.166251" z="0.166251"/>	
+					<translate x="27.112339" y="-2.25" z="-4.351452"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.362712" g=" 0.581042" b=" 0.0232551"/>	
+					<reflective r=" 0.362712" g=" 0.581042" b=" 0.0232551"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.164206" y="0.164206" z="0.164206"/>	
+					<translate x="-11.725517" y="-2.25" z="-5.978638"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.313761" g=" 0.326701" b=" 0.462539"/>	
+					<reflective r=" 0.313761" g=" 0.326701" b=" 0.462539"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.150220" y="0.150220" z="0.150220"/>	
+					<translate x="21.289406" y="-2.25" z="-20.084688"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.52501" g=" 0.755242" b=" 0.0877407"/>	
+					<reflective r=" 0.52501" g=" 0.755242" b=" 0.0877407"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.154122" y="0.154122" z="0.154122"/>	
+					<translate x="11.599171" y="-2.25" z="-45.993500"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.102664" g=" 0.114383" b=" 0.456313"/>	
+					<reflective r=" 0.102664" g=" 0.114383" b=" 0.456313"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.140910" y="0.140910" z="0.140910"/>	
+					<translate x="-4.604328" y="-2.25" z="-25.360912"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.013947" g=" 0.694113" b=" 0.124271"/>	
+					<reflective r=" 0.013947" g=" 0.694113" b=" 0.124271"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.113937" y="0.113937" z="0.113937"/>	
+					<translate x="-27.661673" y="-2.25" z="-34.929932"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.997101" g=" 0.0959197" b=" 0.837825"/>	
+					<reflective r=" 0.997101" g=" 0.0959197" b=" 0.837825"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.154319" y="0.154319" z="0.154319"/>	
+					<translate x="-4.199652" y="-2.25" z="-48.641315"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0966521" g=" 0.627583" b=" 0.349467"/>	
+					<reflective r=" 0.0966521" g=" 0.627583" b=" 0.349467"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.126584" y="0.126584" z="0.126584"/>	
+					<translate x="0.590532" y="-2.25" z="-11.133549"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.823664" g=" 0.822474" b=" 0.859737"/>	
+					<reflective r=" 0.823664" g=" 0.822474" b=" 0.859737"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.160612" y="0.160612" z="0.160612"/>	
+					<translate x="28.200020" y="-2.25" z="-10.622425"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.940672" g=" 0.0843226" b=" 0.0833766"/>	
+					<reflective r=" 0.940672" g=" 0.0843226" b=" 0.0833766"/>	
+					<shininess value=" 6"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.159775" y="0.159775" z="0.159775"/>	
+					<translate x="9.530014" y="-2.25" z="-21.129581"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.871975" g=" 0.456557" b=" 0.940855"/>	
+					<reflective r=" 0.871975" g=" 0.456557" b=" 0.940855"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.135366" y="0.135366" z="0.135366"/>	
+					<translate x="5.129856" y="-2.25" z="-9.119785"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.738823" g=" 0.516923" b=" 0.87466"/>	
+					<reflective r=" 0.738823" g=" 0.516923" b=" 0.87466"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.167256" y="0.167256" z="0.167256"/>	
+					<translate x="2.927029" y="-2.25" z="-33.490372"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0194708" g=" 0.396985" b=" 0.790857"/>	
+					<reflective r=" 0.0194708" g=" 0.396985" b=" 0.790857"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.120810" y="0.120810" z="0.120810"/>	
+					<translate x="-6.534319" y="-2.25" z="-20.940336"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.834468" g=" 0.926725" b=" 0.625385"/>	
+					<reflective r=" 0.834468" g=" 0.926725" b=" 0.625385"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.180060" y="0.180060" z="0.180060"/>	
+					<translate x="22.635273" y="-2.25" z="-11.719078"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.856594" g=" 0.903958" b=" 0.535508"/>	
+					<reflective r=" 0.856594" g=" 0.903958" b=" 0.535508"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.147093" y="0.147093" z="0.147093"/>	
+					<translate x="-18.088627" y="-2.25" z="-27.749931"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.846278" g=" 0.488937" b=" 0.716239"/>	
+					<reflective r=" 0.846278" g=" 0.488937" b=" 0.716239"/>	
+					<shininess value=" 6"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.107750" y="0.107750" z="0.107750"/>	
+					<translate x="-23.911556" y="-2.25" z="-40.122044"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.811518" g=" 0.723899" b=" 0.84167"/>	
+					<reflective r=" 0.811518" g=" 0.723899" b=" 0.84167"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.123519" y="0.123519" z="0.123519"/>	
+					<translate x="8.513748" y="-2.25" z="-35.961884"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.793298" g=" 0.177587" b=" 0.131382"/>	
+					<reflective r=" 0.793298" g=" 0.177587" b=" 0.131382"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.139692" y="0.139692" z="0.139692"/>	
+					<translate x="3.816952" y="-2.25" z="-25.679556"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.27543" g=" 0.714713" b=" 0.042024"/>	
+					<reflective r=" 0.27543" g=" 0.714713" b=" 0.042024"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.139800" y="0.139800" z="0.139800"/>	
+					<translate x="-11.850033" y="-2.25" z="-43.598011"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.219977" g=" 0.390545" b=" 0.583514"/>	
+					<reflective r=" 0.219977" g=" 0.390545" b=" 0.583514"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.146264" y="0.146264" z="0.146264"/>	
+					<translate x="6.926174" y="-2.25" z="-35.931152"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.727348" g=" 0.470473" b=" 0.260445"/>	
+					<reflective r=" 0.727348" g=" 0.470473" b=" 0.260445"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.167312" y="0.167312" z="0.167312"/>	
+					<translate x="20.038757" y="-2.25" z="-7.173954"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.321268" g=" 0.57448" b=" 0.638783"/>	
+					<reflective r=" 0.321268" g=" 0.57448" b=" 0.638783"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.160144" y="0.160144" z="0.160144"/>	
+					<translate x="14.613178" y="-2.25" z="-0.836666"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.859188" g=" 0.946715" b=" 0.53679"/>	
+					<reflective r=" 0.859188" g=" 0.946715" b=" 0.53679"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.140342" y="0.140342" z="0.140342"/>	
+					<translate x="-24.772179" y="-2.25" z="-20.573168"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0673238" g=" 0.84994" b=" 0.841914"/>	
+					<reflective r=" 0.0673238" g=" 0.84994" b=" 0.841914"/>	
+					<shininess value=" 6"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.137537" y="0.137537" z="0.137537"/>	
+					<translate x="11.661427" y="-2.25" z="2.333599"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.700797" g=" 0.0851772" b=" 0.951842"/>	
+					<reflective r=" 0.700797" g=" 0.0851772" b=" 0.951842"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.117329" y="0.117329" z="0.117329"/>	
+					<translate x="-15.891294" y="-2.25" z="-16.912807"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.328806" g=" 0.636219" b=" 0.841121"/>	
+					<reflective r=" 0.328806" g=" 0.636219" b=" 0.841121"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.179444" y="0.179444" z="0.179444"/>	
+					<translate x="5.937374" y="-2.25" z="-5.860561"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.744865" g=" 0.439039" b=" 0.752464"/>	
+					<reflective r=" 0.744865" g=" 0.439039" b=" 0.752464"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.162139" y="0.162139" z="0.162139"/>	
+					<translate x="23.904232" y="-2.25" z="-0.432293"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.00173956" g=" 0.276498" b=" 0.513169"/>	
+					<reflective r=" 0.00173956" g=" 0.276498" b=" 0.513169"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.162886" y="0.162886" z="0.162886"/>	
+					<translate x="-24.103825" y="-2.25" z="-32.919403"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0719321" g=" 0.797754" b=" 0.476516"/>	
+					<reflective r=" 0.0719321" g=" 0.797754" b=" 0.476516"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.155276" y="0.155276" z="0.155276"/>	
+					<translate x="-13.829462" y="-2.25" z="-13.355968"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.132572" g=" 0.662801" b=" 0.0882595"/>	
+					<reflective r=" 0.132572" g=" 0.662801" b=" 0.0882595"/>	
+					<shininess value=" 8"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.152182" y="0.152182" z="0.152182"/>	
+					<translate x="-1.921751" y="-2.25" z="-28.265907"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.4756" g=" 0.812098" b=" 0.0779443"/>	
+					<reflective r=" 0.4756" g=" 0.812098" b=" 0.0779443"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.125172" y="0.125172" z="0.125172"/>	
+					<translate x="-15.693533" y="-2.25" z="-49.778404"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0430616" g=" 0.860958" b=" 0.275246"/>	
+					<reflective r=" 0.0430616" g=" 0.860958" b=" 0.275246"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.130181" y="0.130181" z="0.130181"/>	
+					<translate x="14.609516" y="-2.25" z="-9.126255"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.587176" g=" 0.61919" b=" 0.0516068"/>	
+					<reflective r=" 0.587176" g=" 0.61919" b=" 0.0516068"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.159415" y="0.159415" z="0.159415"/>	
+					<translate x="1.042818" y="-2.25" z="-22.525467"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.455428" g=" 0.735588" b=" 0.386395"/>	
+					<reflective r=" 0.455428" g=" 0.735588" b=" 0.386395"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.139517" y="0.139517" z="0.139517"/>	
+					<translate x="20.699791" y="-2.25" z="-27.407026"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.000915555" g=" 0.467483" b=" 0.558428"/>	
+					<reflective r=" 0.000915555" g=" 0.467483" b=" 0.558428"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.135992" y="0.135992" z="0.135992"/>	
+					<translate x="15.946228" y="-2.25" z="-48.049316"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.617298" g=" 0.575213" b=" 0.462447"/>	
+					<reflective r=" 0.617298" g=" 0.575213" b=" 0.462447"/>	
+					<shininess value=" 8"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.143860" y="0.143860" z="0.143860"/>	
+					<translate x="12.148502" y="-2.25" z="-30.565966"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.39903" g=" 0.341716" b=" 0.550371"/>	
+					<reflective r=" 0.39903" g=" 0.341716" b=" 0.550371"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.164569" y="0.164569" z="0.164569"/>	
+					<translate x="12.917568" y="-2.25" z="-42.284615"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.426588" g=" 0.717093" b=" 0.397778"/>	
+					<reflective r=" 0.426588" g=" 0.717093" b=" 0.397778"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.139163" y="0.139163" z="0.139163"/>	
+					<translate x="-7.162390" y="-2.25" z="-40.487595"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.676534" g=" 0.588031" b=" 0.895352"/>	
+					<reflective r=" 0.676534" g=" 0.588031" b=" 0.895352"/>	
+					<shininess value=" 6"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.177705" y="0.177705" z="0.177705"/>	
+					<translate x="-12.300486" y="-2.25" z="-5.533829"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.556688" g=" 0.172399" b=" 0.065157"/>	
+					<reflective r=" 0.556688" g=" 0.172399" b=" 0.065157"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.134920" y="0.134920" z="0.134920"/>	
+					<translate x="-17.762688" y="-2.25" z="-14.358807"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0663472" g=" 0.538835" b=" 0.502335"/>	
+					<reflective r=" 0.0663472" g=" 0.538835" b=" 0.502335"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.152130" y="0.152130" z="0.152130"/>	
+					<translate x="15.367596" y="-2.25" z="-42.341228"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.581378" g=" 0.251106" b=" 0.441054"/>	
+					<reflective r=" 0.581378" g=" 0.251106" b=" 0.441054"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.145404" y="0.145404" z="0.145404"/>	
+					<translate x="22.906277" y="-2.25" z="-23.549334"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.264351" g=" 0.137852" b=" 0.446303"/>	
+					<reflective r=" 0.264351" g=" 0.137852" b=" 0.446303"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.149980" y="0.149980" z="0.149980"/>	
+					<translate x="17.828609" y="-2.25" z="-10.363628"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0997955" g=" 0.186987" b=" 0.730216"/>	
+					<reflective r=" 0.0997955" g=" 0.186987" b=" 0.730216"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.130924" y="0.130924" z="0.130924"/>	
+					<translate x="7.982727" y="-2.25" z="-8.474411"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.554247" g=" 0.565264" b=" 0.0932646"/>	
+					<reflective r=" 0.554247" g=" 0.565264" b=" 0.0932646"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.160050" y="0.160050" z="0.160050"/>	
+					<translate x="11.333660" y="-2.25" z="-17.249245"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.861507" g=" 0.762719" b=" 0.491043"/>	
+					<reflective r=" 0.861507" g=" 0.762719" b=" 0.491043"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.179077" y="0.179077" z="0.179077"/>	
+					<translate x="-11.306192" y="-2.25" z="-10.481705"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.932676" g=" 0.862392" b=" 0.225257"/>	
+					<reflective r=" 0.932676" g=" 0.862392" b=" 0.225257"/>	
+					<shininess value=" 6"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.149050" y="0.149050" z="0.149050"/>	
+					<translate x="-6.038088" y="-2.25" z="-16.511673"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.891415" g=" 0.93469" b=" 0.760491"/>	
+					<reflective r=" 0.891415" g=" 0.93469" b=" 0.760491"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.165993" y="0.165993" z="0.165993"/>	
+					<translate x="1.854000" y="-2.25" z="-32.722069"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.234046" g=" 0.556993" b=" 0.165288"/>	
+					<reflective r=" 0.234046" g=" 0.556993" b=" 0.165288"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.142841" y="0.142841" z="0.142841"/>	
+					<translate x="13.137302" y="-2.25" z="-39.405499"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.614826" g=" 0.458174" b=" 0.178899"/>	
+					<reflective r=" 0.614826" g=" 0.458174" b=" 0.178899"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.147588" y="0.147588" z="0.147588"/>	
+					<translate x="17.363506" y="-2.25" z="-7.018677"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.255867" g=" 0.288125" b=" 0.902402"/>	
+					<reflective r=" 0.255867" g=" 0.288125" b=" 0.902402"/>	
+					<shininess value=" 8"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.137709" y="0.137709" z="0.137709"/>	
+					<translate x="-6.891384" y="-2.25" z="-2.797050"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.982513" g=" 0.512314" b=" 0.115238"/>	
+					<reflective r=" 0.982513" g=" 0.512314" b=" 0.115238"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.150815" y="0.150815" z="0.150815"/>	
+					<translate x="5.704826" y="-2.25" z="-25.753960"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.883358" g=" 0.431257" b=" 0.21662"/>	
+					<reflective r=" 0.883358" g=" 0.431257" b=" 0.21662"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.171585" y="0.171585" z="0.171585"/>	
+					<translate x="-17.530136" y="-2.25" z="-47.049713"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.595538" g=" 0.325053" b=" 0.791955"/>	
+					<reflective r=" 0.595538" g=" 0.325053" b=" 0.791955"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.154909" y="0.154909" z="0.154909"/>	
+					<translate x="5.452133" y="-2.25" z="-43.735497"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.214698" g=" 0.723045" b=" 0.804102"/>	
+					<reflective r=" 0.214698" g=" 0.723045" b=" 0.804102"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.175318" y="0.175318" z="0.175318"/>	
+					<translate x="-18.350475" y="-2.25" z="-25.881741"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.830409" g=" 0.798151" b=" 0.409955"/>	
+					<reflective r=" 0.830409" g=" 0.798151" b=" 0.409955"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.132638" y="0.132638" z="0.132638"/>	
+					<translate x="10.760521" y="-2.25" z="-4.070011"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.685995" g=" 0.886563" b=" 0.401837"/>	
+					<reflective r=" 0.685995" g=" 0.886563" b=" 0.401837"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.173915" y="0.173915" z="0.173915"/>	
+					<translate x="10.407116" y="-2.25" z="-3.262886"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.963988" g=" 0.132145" b=" 0.273782"/>	
+					<reflective r=" 0.963988" g=" 0.132145" b=" 0.273782"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.151564" y="0.151564" z="0.151564"/>	
+					<translate x="-21.128269" y="-2.25" z="-17.050293"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.196142" g=" 0.256172" b=" 0.913022"/>	
+					<reflective r=" 0.196142" g=" 0.256172" b=" 0.913022"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.147796" y="0.147796" z="0.147796"/>	
+					<translate x="-4.659262" y="-2.25" z="-8.270607"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.298593" g=" 0.451552" b=" 0.91641"/>	
+					<reflective r=" 0.298593" g=" 0.451552" b=" 0.91641"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.175275" y="0.175275" z="0.175275"/>	
+					<translate x="17.619862" y="-2.25" z="-9.013031"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.232032" g=" 0.4026" b=" 0.531724"/>	
+					<reflective r=" 0.232032" g=" 0.4026" b=" 0.531724"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.124035" y="0.124035" z="0.124035"/>	
+					<translate x="17.387310" y="-2.25" z="-1.975372"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.286874" g=" 0.429518" b=" 0.224281"/>	
+					<reflective r=" 0.286874" g=" 0.429518" b=" 0.224281"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.164647" y="0.164647" z="0.164647"/>	
+					<translate x="-27.084871" y="-2.25" z="-7.227333"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.993408" g=" 0.757897" b=" 0.868129"/>	
+					<reflective r=" 0.993408" g=" 0.757897" b=" 0.868129"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.137625" y="0.137625" z="0.137625"/>	
+					<translate x="19.315472" y="-2.25" z="-3.313030"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.65688" g=" 0.913205" b=" 0.562487"/>	
+					<reflective r=" 0.65688" g=" 0.913205" b=" 0.562487"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.129094" y="0.129094" z="0.129094"/>	
+					<translate x="-23.739433" y="-2.25" z="-0.763878"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.517838" g=" 0.240394" b=" 0.0733055"/>	
+					<reflective r=" 0.517838" g=" 0.240394" b=" 0.0733055"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.162711" y="0.162711" z="0.162711"/>	
+					<translate x="-6.768700" y="-2.25" z="-2.958801"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.537065" g=" 0.548479" b=" 0.899533"/>	
+					<reflective r=" 0.537065" g=" 0.548479" b=" 0.899533"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.137814" y="0.137814" z="0.137814"/>	
+					<translate x="-27.758720" y="-2.25" z="-13.373760"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.805902" g=" 0.879849" b=" 0.964538"/>	
+					<reflective r=" 0.805902" g=" 0.879849" b=" 0.964538"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.143852" y="0.143852" z="0.143852"/>	
+					<translate x="-11.921446" y="-2.25" z="-36.204506"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.581286" g=" 0.405042" b=" 0.932493"/>	
+					<reflective r=" 0.581286" g=" 0.405042" b=" 0.932493"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.151037" y="0.151037" z="0.151037"/>	
+					<translate x="26.033813" y="-2.25" z="-17.357616"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.945982" g=" 0.442213" b=" 0.149876"/>	
+					<reflective r=" 0.945982" g=" 0.442213" b=" 0.149876"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.147266" y="0.147266" z="0.147266"/>	
+					<translate x="-2.864773" y="-2.25" z="-43.829311"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0937223" g=" 0.60152" b=" 0.21189"/>	
+					<reflective r=" 0.0937223" g=" 0.60152" b=" 0.21189"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.141281" y="0.141281" z="0.141281"/>	
+					<translate x="-29.108250" y="-2.25" z="-6.441238"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.239357" g=" 0.0548418" b=" 0.153661"/>	
+					<reflective r=" 0.239357" g=" 0.0548418" b=" 0.153661"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.132084" y="0.132084" z="0.132084"/>	
+					<translate x="25.515610" y="-2.25" z="2.023041"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.154027" g=" 0.930265" b=" 0.266854"/>	
+					<reflective r=" 0.154027" g=" 0.930265" b=" 0.266854"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.164600" y="0.164600" z="0.164600"/>	
+					<translate x="15.662403" y="-2.25" z="-15.662495"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.325297" g=" 0.831477" b=" 0.541032"/>	
+					<reflective r=" 0.325297" g=" 0.831477" b=" 0.541032"/>	
+					<shininess value=" 8"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.181594" y="0.181594" z="0.181594"/>	
+					<translate x="-22.333139" y="-2.25" z="-28.041079"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.742271" g=" 0.482467" b=" 0.729972"/>	
+					<reflective r=" 0.742271" g=" 0.482467" b=" 0.729972"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.141829" y="0.141829" z="0.141829"/>	
+					<translate x="-27.723930" y="-2.25" z="-35.225929"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.305795" g=" 0.497055" b=" 0.0432142"/>	
+					<reflective r=" 0.305795" g=" 0.497055" b=" 0.0432142"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.144492" y="0.144492" z="0.144492"/>	
+					<translate x="24.880215" y="-2.25" z="-16.516525"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.863765" g=" 0.273232" b=" 0.462355"/>	
+					<reflective r=" 0.863765" g=" 0.273232" b=" 0.462355"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.159844" y="0.159844" z="0.159844"/>	
+					<translate x="-16.751915" y="-2.25" z="-30.396130"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.870907" g=" 0.0129093" b=" 0.682485"/>	
+					<reflective r=" 0.870907" g=" 0.0129093" b=" 0.682485"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.146140" y="0.146140" z="0.146140"/>	
+					<translate x="12.772911" y="-2.25" z="-42.899258"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.674306" g=" 0.866421" b=" 0.67861"/>	
+					<reflective r=" 0.674306" g=" 0.866421" b=" 0.67861"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.152799" y="0.152799" z="0.152799"/>	
+					<translate x="-10.817286" y="-2.25" z="-14.362041"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.423383" g=" 0.201788" b=" 0.897092"/>	
+					<reflective r=" 0.423383" g=" 0.201788" b=" 0.897092"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.129807" y="0.129807" z="0.129807"/>	
+					<translate x="8.803062" y="-2.25" z="-32.544144"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.605121" g=" 0.999695" b=" 0.0719016"/>	
+					<reflective r=" 0.605121" g=" 0.999695" b=" 0.0719016"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.153393" y="0.153393" z="0.153393"/>	
+					<translate x="-23.732109" y="-2.25" z="-15.117405"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.204077" g=" 0.3726" b=" 0.666311"/>	
+					<reflective r=" 0.204077" g=" 0.3726" b=" 0.666311"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.117923" y="0.117923" z="0.117923"/>	
+					<translate x="9.768059" y="-2.25" z="-41.550278"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.487777" g=" 0.209571" b=" 0.938932"/>	
+					<reflective r=" 0.487777" g=" 0.209571" b=" 0.938932"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.174098" y="0.174098" z="0.174098"/>	
+					<translate x="-16.222725" y="-2.25" z="-42.334759"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.416608" g=" 0.945708" b=" 0.635456"/>	
+					<reflective r=" 0.416608" g=" 0.945708" b=" 0.635456"/>	
+					<shininess value=" 8"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.163330" y="0.163330" z="0.163330"/>	
+					<translate x="9.295631" y="-2.25" z="-11.626881"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.67922" g=" 0.456496" b=" 0.304819"/>	
+					<reflective r=" 0.67922" g=" 0.456496" b=" 0.304819"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.118430" y="0.118430" z="0.118430"/>	
+					<translate x="-8.429518" y="-2.25" z="-1.232948"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.352489" g=" 0.0776696" b=" 0.240791"/>	
+					<reflective r=" 0.352489" g=" 0.0776696" b=" 0.240791"/>	
+					<shininess value=" 6"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.170521" y="0.170521" z="0.170521"/>	
+					<translate x="5.349590" y="-2.25" z="-1.981842"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.186804" g=" 0.749596" b=" 0.0482498"/>	
+					<reflective r=" 0.186804" g=" 0.749596" b=" 0.0482498"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.112189" y="0.112189" z="0.112189"/>	
+					<translate x="-12.404858" y="-2.25" z="-30.468918"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.51616" g=" 0.286599" b=" 0.834712"/>	
+					<reflective r=" 0.51616" g=" 0.286599" b=" 0.834712"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.136910" y="0.136910" z="0.136910"/>	
+					<translate x="7.735527" y="-2.25" z="2.820461"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.793298" g=" 0.771874" b=" 0.0264901"/>	
+					<reflective r=" 0.793298" g=" 0.771874" b=" 0.0264901"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.134708" y="0.134708" z="0.134708"/>	
+					<translate x="-24.616535" y="-2.25" z="-44.992279"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.749931" g=" 0.076693" b=" 0.81048"/>	
+					<reflective r=" 0.749931" g=" 0.076693" b=" 0.81048"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.174070" y="0.174070" z="0.174070"/>	
+					<translate x="-14.413587" y="-2.25" z="-33.031006"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.181799" g=" 0.505203" b=" 0.200232"/>	
+					<reflective r=" 0.181799" g=" 0.505203" b=" 0.200232"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.130107" y="0.130107" z="0.130107"/>	
+					<translate x="-18.447523" y="-2.25" z="-20.933867"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.358989" g=" 0.563646" b=" 0.727531"/>	
+					<reflective r=" 0.358989" g=" 0.563646" b=" 0.727531"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.148977" y="0.148977" z="0.148977"/>	
+					<translate x="-5.118870" y="-2.25" z="-4.456589"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0608844" g=" 0.85522" b=" 0.758721"/>	
+					<reflective r=" 0.0608844" g=" 0.85522" b=" 0.758721"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.158538" y="0.158538" z="0.158538"/>	
+					<translate x="3.306068" y="-2.25" z="-15.481339"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.236457" g=" 0.0993683" b=" 0.436171"/>	
+					<reflective r=" 0.236457" g=" 0.0993683" b=" 0.436171"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.135271" y="0.135271" z="0.135271"/>	
+					<translate x="5.924557" y="-2.25" z="-3.372875"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.289438" g=" 0.276437" b=" 0.244667"/>	
+					<reflective r=" 0.289438" g=" 0.276437" b=" 0.244667"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.137440" y="0.137440" z="0.137440"/>	
+					<translate x="15.935238" y="-2.25" z="-27.745079"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.988342" g=" 0.897183" b=" 0.202826"/>	
+					<reflective r=" 0.988342" g=" 0.897183" b=" 0.202826"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.124505" y="0.124505" z="0.124505"/>	
+					<translate x="-29.137547" y="-2.25" z="-20.558611"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.00173956" g=" 0.397229" b=" 0.679434"/>	
+					<reflective r=" 0.00173956" g=" 0.397229" b=" 0.679434"/>	
+					<shininess value=" 6"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.132789" y="0.132789" z="0.132789"/>	
+					<translate x="-19.687185" y="-2.25" z="-18.638660"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0584735" g=" 0.656697" b=" 0.834895"/>	
+					<reflective r=" 0.0584735" g=" 0.656697" b=" 0.834895"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.147391" y="0.147391" z="0.147391"/>	
+					<translate x="11.181675" y="-2.25" z="-18.531908"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.732597" g=" 0.644673" b=" 0.687704"/>	
+					<reflective r=" 0.732597" g=" 0.644673" b=" 0.687704"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.140345" y="0.140345" z="0.140345"/>	
+					<translate x="-29.597157" y="-2.25" z="-36.757683"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.853664" g=" 0.188818" b=" 0.80578"/>	
+					<reflective r=" 0.853664" g=" 0.188818" b=" 0.80578"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.175047" y="0.175047" z="0.175047"/>	
+					<translate x="5.192116" y="-2.25" z="-4.425854"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.541948" g=" 0.869808" b=" 0.622852"/>	
+					<reflective r=" 0.541948" g=" 0.869808" b=" 0.622852"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.126902" y="0.126902" z="0.126902"/>	
+					<translate x="0.757164" y="-2.25" z="-26.244057"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.868557" g=" 0.0408338" b=" 0.379925"/>	
+					<reflective r=" 0.868557" g=" 0.0408338" b=" 0.379925"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.160254" y="0.160254" z="0.160254"/>	
+					<translate x="15.550705" y="-2.25" z="-49.870602"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.140385" g=" 0.972411" b=" 0.691671"/>	
+					<reflective r=" 0.140385" g=" 0.972411" b=" 0.691671"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.151539" y="0.151539" z="0.151539"/>	
+					<translate x="-25.999023" y="-2.25" z="-5.671314"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.810663" g=" 0.121403" b=" 0.737815"/>	
+					<reflective r=" 0.810663" g=" 0.121403" b=" 0.737815"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.138705" y="0.138705" z="0.138705"/>	
+					<translate x="-3.254799" y="-2.25" z="-45.849545"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0137333" g=" 0.526109" b=" 0.0795007"/>	
+					<reflective r=" 0.0137333" g=" 0.526109" b=" 0.0795007"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.146873" y="0.146873" z="0.146873"/>	
+					<translate x="-11.639454" y="-2.25" z="-34.918606"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.725486" g=" 0.325388" b=" 0.100833"/>	
+					<reflective r=" 0.725486" g=" 0.325388" b=" 0.100833"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.150251" y="0.150251" z="0.150251"/>	
+					<translate x="-17.396465" y="-2.25" z="-40.595966"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.548265" g=" 0.403424" b=" 0.0751671"/>	
+					<reflective r=" 0.548265" g=" 0.403424" b=" 0.0751671"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.150302" y="0.150302" z="0.150302"/>	
+					<translate x="-14.860378" y="-2.25" z="-23.034975"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.121281" g=" 0.159062" b=" 0.856563"/>	
+					<reflective r=" 0.121281" g=" 0.159062" b=" 0.856563"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.150154" y="0.150154" z="0.150154"/>	
+					<translate x="-26.216927" y="-2.25" z="-47.455704"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.155614" g=" 0.400616" b=" 0.196081"/>	
+					<reflective r=" 0.155614" g=" 0.400616" b=" 0.196081"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.135262" y="0.135262" z="0.135262"/>	
+					<translate x="-3.771172" y="-2.25" z="-13.129520"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0943632" g=" 0.365032" b=" 0.683432"/>	
+					<reflective r=" 0.0943632" g=" 0.365032" b=" 0.683432"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.170333" y="0.170333" z="0.170333"/>	
+					<translate x="5.283669" y="-2.25" z="-11.762749"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.39787" g=" 0.862819" b=" 0.313089"/>	
+					<reflective r=" 0.39787" g=" 0.862819" b=" 0.313089"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.122475" y="0.122475" z="0.122475"/>	
+					<translate x="-28.395947" y="-2.25" z="-43.235695"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.45381" g=" 0.547197" b=" 0.675954"/>	
+					<reflective r=" 0.45381" g=" 0.547197" b=" 0.675954"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.120622" y="0.120622" z="0.120622"/>	
+					<translate x="-26.064943" y="-2.25" z="-42.721336"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.1124" g=" 0.308939" b=" 0.775597"/>	
+					<reflective r=" 0.1124" g=" 0.308939" b=" 0.775597"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.131195" y="0.131195" z="0.131195"/>	
+					<translate x="26.834011" y="-2.25" z="-7.186893"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.846614" g=" 0.79577" b=" 0.46968"/>	
+					<reflective r=" 0.846614" g=" 0.79577" b=" 0.46968"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.120014" y="0.120014" z="0.120014"/>	
+					<translate x="5.909908" y="-2.25" z="-9.266975"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.537095" g=" 0.0568255" b=" 0.536485"/>	
+					<reflective r=" 0.537095" g=" 0.0568255" b=" 0.536485"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.160464" y="0.160464" z="0.160464"/>	
+					<translate x="-29.439680" y="-2.25" z="-45.503403"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.882656" g=" 0.312326" b=" 0.366161"/>	
+					<reflective r=" 0.882656" g=" 0.312326" b=" 0.366161"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.147911" y="0.147911" z="0.147911"/>	
+					<translate x="-15.792413" y="-2.25" z="-36.963104"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.435133" g=" 0.848079" b=" 0.27723"/>	
+					<reflective r=" 0.435133" g=" 0.848079" b=" 0.27723"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.180358" y="0.180358" z="0.180358"/>	
+					<translate x="-27.974792" y="-2.25" z="-35.245338"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.259713" g=" 0.0347911" b=" 0.457961"/>	
+					<reflective r=" 0.259713" g=" 0.0347911" b=" 0.457961"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.155372" y="0.155372" z="0.155372"/>	
+					<translate x="-23.825495" y="-2.25" z="2.150822"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.220099" g=" 0.473067" b=" 0.532731"/>	
+					<reflective r=" 0.220099" g=" 0.473067" b=" 0.532731"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.163237" y="0.163237" z="0.163237"/>	
+					<translate x="28.547928" y="-2.25" z="-33.914154"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.888516" g=" 0.262398" b=" 0.753624"/>	
+					<reflective r=" 0.888516" g=" 0.262398" b=" 0.753624"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.146372" y="0.146372" z="0.146372"/>	
+					<translate x="0.986053" y="-2.25" z="-7.342175"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0809961" g=" 0.3961" b=" 0.816492"/>	
+					<reflective r=" 0.0809961" g=" 0.3961" b=" 0.816492"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.144996" y="0.144996" z="0.144996"/>	
+					<translate x="-26.967682" y="-2.25" z="-34.302345"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0175787" g=" 0.280648" b=" 0.302744"/>	
+					<reflective r=" 0.0175787" g=" 0.280648" b=" 0.302744"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.159046" y="0.159046" z="0.159046"/>	
+					<translate x="-22.847683" y="-2.25" z="-20.092775"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.107273" g=" 0.380291" b=" 0.745476"/>	
+					<reflective r=" 0.107273" g=" 0.380291" b=" 0.745476"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.156322" y="0.156322" z="0.156322"/>	
+					<translate x="21.476181" y="-2.25" z="-37.390118"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.358379" g=" 0.986511" b=" 0.320933"/>	
+					<reflective r=" 0.358379" g=" 0.986511" b=" 0.320933"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.156931" y="0.156931" z="0.156931"/>	
+					<translate x="-29.978027" y="-2.25" z="-8.867458"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.413617" g=" 0.112522" b=" 0.165105"/>	
+					<reflective r=" 0.413617" g=" 0.112522" b=" 0.165105"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.183927" y="0.183927" z="0.183927"/>	
+					<translate x="0.453199" y="-2.25" z="-19.199926"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.210242" g=" 0.513077" b=" 0.314859"/>	
+					<reflective r=" 0.210242" g=" 0.513077" b=" 0.314859"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.120232" y="0.120232" z="0.120232"/>	
+					<translate x="19.284340" y="-2.25" z="-37.424088"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.265267" g=" 0.828578" b=" 0.274453"/>	
+					<reflective r=" 0.265267" g=" 0.828578" b=" 0.274453"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.151811" y="0.151811" z="0.151811"/>	
+					<translate x="14.633320" y="-2.25" z="-3.691521"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.585467" g=" 0.854946" b=" 0.207099"/>	
+					<reflective r=" 0.585467" g=" 0.854946" b=" 0.207099"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.117066" y="0.117066" z="0.117066"/>	
+					<translate x="26.454971" y="-2.25" z="-15.385906"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.202734" g=" 0.938017" b=" 0.751061"/>	
+					<reflective r=" 0.202734" g=" 0.938017" b=" 0.751061"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.142516" y="0.142516" z="0.142516"/>	
+					<translate x="-25.735344" y="-2.25" z="-29.622974"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.334117" g=" 0.492996" b=" 0.461318"/>	
+					<reflective r=" 0.334117" g=" 0.492996" b=" 0.461318"/>	
+					<shininess value=" 8"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.164704" y="0.164704" z="0.164704"/>	
+					<translate x="2.388683" y="-2.25" z="-36.115543"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.166967" g=" 0.64919" b=" 0.875912"/>	
+					<reflective r=" 0.166967" g=" 0.64919" b=" 0.875912"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.138361" y="0.138361" z="0.138361"/>	
+					<translate x="22.686543" y="-2.25" z="-11.427929"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.269204" g=" 0.0193793" b=" 0.207221"/>	
+					<reflective r=" 0.269204" g=" 0.0193793" b=" 0.207221"/>	
+					<shininess value=" 8"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.160828" y="0.160828" z="0.160828"/>	
+					<translate x="14.783470" y="-2.25" z="-25.592211"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.624348" g=" 0.594409" b=" 0.658559"/>	
+					<reflective r=" 0.624348" g=" 0.594409" b=" 0.658559"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.182706" y="0.182706" z="0.182706"/>	
+					<translate x="3.816952" y="-2.25" z="-24.099277"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.291696" g=" 0.762688" b=" 0.365459"/>	
+					<reflective r=" 0.291696" g=" 0.762688" b=" 0.365459"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.154781" y="0.154781" z="0.154781"/>	
+					<translate x="15.662403" y="-2.25" z="-27.282480"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.69158" g=" 0.454726" b=" 0.962127"/>	
+					<reflective r=" 0.69158" g=" 0.454726" b=" 0.962127"/>	
+					<shininess value=" 6"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.151189" y="0.151189" z="0.151189"/>	
+					<translate x="9.669178" y="-2.25" z="-5.050201"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.515366" g=" 0.412702" b=" 0.772759"/>	
+					<reflective r=" 0.515366" g=" 0.412702" b=" 0.772759"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.148819" y="0.148819" z="0.148819"/>	
+					<translate x="28.894009" y="-2.25" z="-10.020721"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.26075" g=" 0.584979" b=" 0.628101"/>	
+					<reflective r=" 0.26075" g=" 0.584979" b=" 0.628101"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.172989" y="0.172989" z="0.172989"/>	
+					<translate x="27.835629" y="-2.25" z="-39.004364"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.391888" g=" 0.64565" b=" 0.306772"/>	
+					<reflective r=" 0.391888" g=" 0.64565" b=" 0.306772"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.149356" y="0.149356" z="0.149356"/>	
+					<translate x="-22.327646" y="-2.25" z="-46.883114"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.124424" g=" 0.638936" b=" 0.601672"/>	
+					<reflective r=" 0.124424" g=" 0.638936" b=" 0.601672"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.152072" y="0.152072" z="0.152072"/>	
+					<translate x="8.997162" y="-2.25" z="-6.853695"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.835871" g=" 0.748985" b=" 0.0112918"/>	
+					<reflective r=" 0.835871" g=" 0.748985" b=" 0.0112918"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.158214" y="0.158214" z="0.158214"/>	
+					<translate x="-7.960752" y="-2.25" z="-17.053528"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.100467" g=" 0.194098" b=" 0.0563982"/>	
+					<reflective r=" 0.100467" g=" 0.194098" b=" 0.0563982"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.158433" y="0.158433" z="0.158433"/>	
+					<translate x="-5.580309" y="-2.25" z="-29.551805"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.349742" g=" 0.246559" b=" 0.221076"/>	
+					<reflective r=" 0.349742" g=" 0.246559" b=" 0.221076"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.123877" y="0.123877" z="0.123877"/>	
+					<translate x="-3.633839" y="-2.25" z="-49.718559"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.157201" g=" 0.376904" b=" 0.519456"/>	
+					<reflective r=" 0.157201" g=" 0.376904" b=" 0.519456"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.179355" y="0.179355" z="0.179355"/>	
+					<translate x="3.458054" y="-2.25" z="-10.975037"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.1489" g=" 0.523576" b=" 0.68688"/>	
+					<reflective r=" 0.1489" g=" 0.523576" b=" 0.68688"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.152742" y="0.152742" z="0.152742"/>	
+					<translate x="16.858120" y="-2.25" z="-13.915615"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.538316" g=" 0.487472" b=" 0.99646"/>	
+					<reflective r=" 0.538316" g=" 0.487472" b=" 0.99646"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.110656" y="0.110656" z="0.110656"/>	
+					<translate x="-18.952909" y="-2.25" z="-28.804529"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.286599" g=" 0.45146" b=" 0.70043"/>	
+					<reflective r=" 0.286599" g=" 0.45146" b=" 0.70043"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.140363" y="0.140363" z="0.140363"/>	
+					<translate x="9.059418" y="-2.25" z="-15.436047"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.887845" g=" 0.624897" b=" 0.0965606"/>	
+					<reflective r=" 0.887845" g=" 0.624897" b=" 0.0965606"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.127940" y="0.127940" z="0.127940"/>	
+					<translate x="-14.787133" y="-2.25" z="-36.396984"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.778985" g=" 0.0130924" b=" 0.21955"/>	
+					<reflective r=" 0.778985" g=" 0.0130924" b=" 0.21955"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.122702" y="0.122702" z="0.122702"/>	
+					<translate x="-14.649800" y="-2.25" z="-45.676472"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.375256" g=" 0.311991" b=" 0.157476"/>	
+					<reflective r=" 0.375256" g=" 0.311991" b=" 0.157476"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.137848" y="0.137848" z="0.137848"/>	
+					<translate x="14.567402" y="-2.25" z="-41.665119"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.730094" g=" 0.92761" b=" 0.993103"/>	
+					<reflective r=" 0.730094" g=" 0.92761" b=" 0.993103"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.157388" y="0.157388" z="0.157388"/>	
+					<translate x="22.448502" y="-2.25" z="-1.525711"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.820429" g=" 0.120487" b=" 0.370373"/>	
+					<reflective r=" 0.820429" g=" 0.120487" b=" 0.370373"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.159299" y="0.159299" z="0.159299"/>	
+					<translate x="15.805229" y="-2.25" z="-20.945189"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.456801" g=" 0.27543" b=" 0.685842"/>	
+					<reflective r=" 0.456801" g=" 0.27543" b=" 0.685842"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.154951" y="0.154951" z="0.154951"/>	
+					<translate x="28.903164" y="-2.25" z="-23.243629"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.818598" g=" 0.295846" b=" 0.904965"/>	
+					<reflective r=" 0.818598" g=" 0.295846" b=" 0.904965"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.144754" y="0.144754" z="0.144754"/>	
+					<translate x="11.205482" y="-2.25" z="-44.880672"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.614002" g=" 0.123417" b=" 0.00360118"/>	
+					<reflective r=" 0.614002" g=" 0.123417" b=" 0.00360118"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.120088" y="0.120088" z="0.120088"/>	
+					<translate x="-7.398602" y="-2.25" z="-37.322182"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.865383" g=" 0.382458" b=" 0.0344249"/>	
+					<reflective r=" 0.865383" g=" 0.382458" b=" 0.0344249"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.171458" y="0.171458" z="0.171458"/>	
+					<translate x="-13.858761" y="-2.25" z="-33.289803"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.319315" g=" 0.149663" b=" 0.818323"/>	
+					<reflective r=" 0.319315" g=" 0.149663" b=" 0.818323"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.152909" y="0.152909" z="0.152909"/>	
+					<translate x="-11.731010" y="-2.25" z="-41.375591"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.481826" g=" 0.848506" b=" 0.260598"/>	
+					<reflective r=" 0.481826" g=" 0.848506" b=" 0.260598"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.152689" y="0.152689" z="0.152689"/>	
+					<translate x="16.565144" y="-2.25" z="-40.044403"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.27842" g=" 0.268654" b=" 0.292764"/>	
+					<reflective r=" 0.27842" g=" 0.268654" b=" 0.292764"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.170172" y="0.170172" z="0.170172"/>	
+					<translate x="4.965057" y="-2.25" z="-18.001373"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.339366" g=" 0.710898" b=" 0.438673"/>	
+					<reflective r=" 0.339366" g=" 0.710898" b=" 0.438673"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.159012" y="0.159012" z="0.159012"/>	
+					<translate x="-23.486740" y="-2.25" z="-7.943878"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.909787" g=" 0.256172" b=" 0.00592059"/>	
+					<reflective r=" 0.909787" g=" 0.256172" b=" 0.00592059"/>	
+					<shininess value=" 6"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.146557" y="0.146557" z="0.146557"/>	
+					<translate x="13.584095" y="-2.25" z="-7.670521"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.384777" g=" 0.160527" b=" 0.902432"/>	
+					<reflective r=" 0.384777" g=" 0.160527" b=" 0.902432"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.129522" y="0.129522" z="0.129522"/>	
+					<translate x="25.618153" y="-2.25" z="-0.589191"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.46971" g=" 0.37434" b=" 0.0776391"/>	
+					<reflective r=" 0.46971" g=" 0.37434" b=" 0.0776391"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.145898" y="0.145898" z="0.145898"/>	
+					<translate x="-25.643787" y="-2.25" z="-22.586931"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.9653" g=" 0.187048" b=" 0.589129"/>	
+					<reflective r=" 0.9653" g=" 0.187048" b=" 0.589129"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.173113" y="0.173113" z="0.173113"/>	
+					<translate x="16.585285" y="-2.25" z="-10.264961"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.177557" g=" 0.996612" b=" 0.293832"/>	
+					<reflective r=" 0.177557" g=" 0.996612" b=" 0.293832"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.132443" y="0.132443" z="0.132443"/>	
+					<translate x="24.352856" y="-2.25" z="-13.572712"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.953459" g=" 0.203925" b=" 0.164586"/>	
+					<reflective r=" 0.953459" g=" 0.203925" b=" 0.164586"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.179696" y="0.179696" z="0.179696"/>	
+					<translate x="-17.286598" y="-2.25" z="-30.798883"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.340465" g=" 0.232673" b=" 0.231483"/>	
+					<reflective r=" 0.340465" g=" 0.232673" b=" 0.231483"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.162097" y="0.162097" z="0.162097"/>	
+					<translate x="4.970551" y="-2.25" z="-48.942169"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.87228" g=" 0.673513" b=" 0.148167"/>	
+					<reflective r=" 0.87228" g=" 0.673513" b=" 0.148167"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.141478" y="0.141478" z="0.141478"/>	
+					<translate x="25.391094" y="-2.25" z="-24.453505"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.478469" g=" 0.553728" b=" 0.383496"/>	
+					<reflective r=" 0.478469" g=" 0.553728" b=" 0.383496"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.153675" y="0.153675" z="0.153675"/>	
+					<translate x="9.454941" y="-2.25" z="-16.369335"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0200812" g=" 0.731864" b=" 0.0376598"/>	
+					<reflective r=" 0.0200812" g=" 0.731864" b=" 0.0376598"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.134200" y="0.134200" z="0.134200"/>	
+					<translate x="21.584217" y="-2.25" z="-47.792137"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.449538" g=" 0.417158" b=" 0.283822"/>	
+					<reflective r=" 0.449538" g=" 0.417158" b=" 0.283822"/>	
+					<shininess value=" 8"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.160155" y="0.160155" z="0.160155"/>	
+					<translate x="-29.622791" y="-2.25" z="-13.773277"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.595721" g=" 0.814051" b=" 0.434431"/>	
+					<reflective r=" 0.595721" g=" 0.814051" b=" 0.434431"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.128388" y="0.128388" z="0.128388"/>	
+					<translate x="-8.652912" y="-2.25" z="-6.554459"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.57445" g=" 0.89172" b=" 0.632527"/>	
+					<reflective r=" 0.57445" g=" 0.89172" b=" 0.632527"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.149923" y="0.149923" z="0.149923"/>	
+					<translate x="27.150791" y="-2.25" z="1.811150"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.823298" g=" 0.278756" b=" 0.16831"/>	
+					<reflective r=" 0.823298" g=" 0.278756" b=" 0.16831"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.160603" y="0.160603" z="0.160603"/>	
+					<translate x="-14.677267" y="-2.25" z="-46.536972"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.761956" g=" 0.28251" b=" 0.420515"/>	
+					<reflective r=" 0.761956" g=" 0.28251" b=" 0.420515"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.178024" y="0.178024" z="0.178024"/>	
+					<translate x="-6.479385" y="-2.25" z="-17.637440"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0773034" g=" 0.0336924" b=" 0.422712"/>	
+					<reflective r=" 0.0773034" g=" 0.0336924" b=" 0.422712"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.174689" y="0.174689" z="0.174689"/>	
+					<translate x="-27.760551" y="-2.25" z="-43.457291"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.633656" g=" 0.755943" b=" 0.0548418"/>	
+					<reflective r=" 0.633656" g=" 0.755943" b=" 0.0548418"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.127416" y="0.127416" z="0.127416"/>	
+					<translate x="25.070652" y="-2.25" z="-19.007446"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0077517" g=" 0.160253" b=" 0.859554"/>	
+					<reflective r=" 0.0077517" g=" 0.160253" b=" 0.859554"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.113023" y="0.113023" z="0.113023"/>	
+					<translate x="26.412853" y="-2.25" z="-46.842678"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.649098" g=" 0.964751" b=" 0.483566"/>	
+					<reflective r=" 0.649098" g=" 0.964751" b=" 0.483566"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.130218" y="0.130218" z="0.130218"/>	
+					<translate x="26.720482" y="-2.25" z="-26.928251"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.664937" g=" 0.538804" b=" 0.744194"/>	
+					<reflective r=" 0.664937" g=" 0.538804" b=" 0.744194"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.127777" y="0.127777" z="0.127777"/>	
+					<translate x="-24.766685" y="-2.25" z="-34.892727"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.230598" g=" 0.672964" b=" 0.320658"/>	
+					<reflective r=" 0.230598" g=" 0.672964" b=" 0.320658"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.178956" y="0.178956" z="0.178956"/>	
+					<translate x="20.221870" y="-2.25" z="-4.642597"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.624561" g=" 0.473342" b=" 0.0705588"/>	
+					<reflective r=" 0.624561" g=" 0.473342" b=" 0.0705588"/>	
+					<shininess value=" 6"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.172152" y="0.172152" z="0.172152"/>	
+					<translate x="6.697289" y="-2.25" z="-40.364666"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.888546" g=" 0.381054" b=" 0.971252"/>	
+					<reflective r=" 0.888546" g=" 0.381054" b=" 0.971252"/>	
+					<shininess value=" 6"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.167817" y="0.167817" z="0.167817"/>	
+					<translate x="-28.333689" y="-2.25" z="-32.887051"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.112735" g=" 0.316874" b=" 0.686148"/>	
+					<reflective r=" 0.112735" g=" 0.316874" b=" 0.686148"/>	
+					<shininess value=" 8"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.181630" y="0.181630" z="0.181630"/>	
+					<translate x="16.867275" y="-2.25" z="-11.437637"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.346019" g=" 0.950713" b=" 0.756371"/>	
+					<reflective r=" 0.346019" g=" 0.950713" b=" 0.756371"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.143898" y="0.143898" z="0.143898"/>	
+					<translate x="-21.014740" y="-2.25" z="-11.756279"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.130955" g=" 0.0961333" b=" 0.416883"/>	
+					<reflective r=" 0.130955" g=" 0.0961333" b=" 0.416883"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.115232" y="0.115232" z="0.115232"/>	
+					<translate x="-22.596821" y="-2.25" z="-43.599628"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.664144" g=" 0.229957" b=" 0.0380871"/>	
+					<reflective r=" 0.664144" g=" 0.229957" b=" 0.0380871"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.128455" y="0.128455" z="0.128455"/>	
+					<translate x="-20.564287" y="-2.25" z="1.405163"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.581133" g=" 0.136723" b=" 0.192206"/>	
+					<reflective r=" 0.581133" g=" 0.136723" b=" 0.192206"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.116767" y="0.116767" z="0.116767"/>	
+					<translate x="3.051544" y="-2.25" z="-28.510147"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.366802" g=" 0.678243" b=" 0.344584"/>	
+					<reflective r=" 0.366802" g=" 0.678243" b=" 0.344584"/>	
+					<shininess value=" 6"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.138160" y="0.138160" z="0.138160"/>	
+					<translate x="-2.881252" y="-2.25" z="-15.854977"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.390484" g=" 0.68807" b=" 0.170171"/>	
+					<reflective r=" 0.390484" g=" 0.68807" b=" 0.170171"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.146078" y="0.146078" z="0.146078"/>	
+					<translate x="-0.863369" y="-2.25" z="-44.888760"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.565935" g=" 0.991211" b=" 0.494949"/>	
+					<reflective r=" 0.565935" g=" 0.991211" b=" 0.494949"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.136338" y="0.136338" z="0.136338"/>	
+					<translate x="-29.533068" y="-2.25" z="-17.981964"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.636738" g=" 0.548418" b=" 0.86227"/>	
+					<reflective r=" 0.636738" g=" 0.548418" b=" 0.86227"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.180291" y="0.180291" z="0.180291"/>	
+					<translate x="29.077122" y="-2.25" z="-7.374523"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0862148" g=" 0.725913" b=" 0.724296"/>	
+					<reflective r=" 0.0862148" g=" 0.725913" b=" 0.724296"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.154228" y="0.154228" z="0.154228"/>	
+					<translate x="-0.246284" y="-2.25" z="-17.288063"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.672903" g=" 0.68984" b=" 0.258461"/>	
+					<reflective r=" 0.672903" g=" 0.68984" b=" 0.258461"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.145062" y="0.145062" z="0.145062"/>	
+					<translate x="21.868038" y="-2.25" z="-4.417767"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.59032" g=" 0.925748" b=" 0.808832"/>	
+					<reflective r=" 0.59032" g=" 0.925748" b=" 0.808832"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.132227" y="0.132227" z="0.132227"/>	
+					<translate x="-5.417341" y="-2.25" z="2.181553"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.252449" g=" 0.883236" b=" 0.952391"/>	
+					<reflective r=" 0.252449" g=" 0.883236" b=" 0.952391"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.175848" y="0.175848" z="0.175848"/>	
+					<translate x="19.602955" y="-2.25" z="-0.139530"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.703757" g=" 0.745384" b=" 0.190649"/>	
+					<reflective r=" 0.703757" g=" 0.745384" b=" 0.190649"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.131146" y="0.131146" z="0.131146"/>	
+					<translate x="-18.603168" y="-2.25" z="-41.246193"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.654256" g=" 0.323344" b=" 0.265969"/>	
+					<reflective r=" 0.654256" g=" 0.323344" b=" 0.265969"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.149122" y="0.149122" z="0.149122"/>	
+					<translate x="4.950409" y="-2.25" z="-13.216866"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.139866" g=" 0.0758385" b=" 0.102969"/>	
+					<reflective r=" 0.139866" g=" 0.0758385" b=" 0.102969"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.123452" y="0.123452" z="0.123452"/>	
+					<translate x="-9.024628" y="-2.25" z="-28.722038"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.807489" g=" 0.253731" b=" 0.374889"/>	
+					<reflective r=" 0.807489" g=" 0.253731" b=" 0.374889"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.143659" y="0.143659" z="0.143659"/>	
+					<translate x="28.670612" y="-2.25" z="-30.755211"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.825037" g=" 0.169469" b=" 0.695059"/>	
+					<reflective r=" 0.825037" g=" 0.169469" b=" 0.695059"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.174525" y="0.174525" z="0.174525"/>	
+					<translate x="5.931881" y="-2.25" z="-31.767754"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.416791" g=" 0.591784" b=" 0.43318"/>	
+					<reflective r=" 0.416791" g=" 0.591784" b=" 0.43318"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.161757" y="0.161757" z="0.161757"/>	
+					<translate x="-22.893459" y="-2.25" z="-28.159155"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0233772" g=" 0.264962" b=" 0.157018"/>	
+					<reflective r=" 0.0233772" g=" 0.264962" b=" 0.157018"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.163899" y="0.163899" z="0.163899"/>	
+					<translate x="28.216499" y="-2.25" z="-14.146915"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0871609" g=" 0.553697" b=" 0.698477"/>	
+					<reflective r=" 0.0871609" g=" 0.553697" b=" 0.698477"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.170502" y="0.170502" z="0.170502"/>	
+					<translate x="-0.308542" y="-2.25" z="-42.014496"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.462081" g=" 0.212317" b=" 0.845149"/>	
+					<reflective r=" 0.462081" g=" 0.212317" b=" 0.845149"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.166531" y="0.166531" z="0.166531"/>	
+					<translate x="26.614277" y="-2.25" z="-10.734032"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.449049" g=" 0.27955" b=" 0.656819"/>	
+					<reflective r=" 0.449049" g=" 0.27955" b=" 0.656819"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.133023" y="0.133023" z="0.133023"/>	
+					<translate x="-23.559984" y="-2.25" z="-30.959013"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.456008" g=" 0.0978423" b=" 0.40669"/>	
+					<reflective r=" 0.456008" g=" 0.0978423" b=" 0.40669"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.134022" y="0.134022" z="0.134022"/>	
+					<translate x="4.247261" y="-2.25" z="-41.398235"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.283181" g=" 0.458174" b=" 0.147893"/>	
+					<reflective r=" 0.283181" g=" 0.458174" b=" 0.147893"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.179725" y="0.179725" z="0.179725"/>	
+					<translate x="5.455795" y="-2.25" z="-1.556442"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0330821" g=" 0.869289" b=" 0.904904"/>	
+					<reflective r=" 0.0330821" g=" 0.869289" b=" 0.904904"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.165898" y="0.165898" z="0.165898"/>	
+					<translate x="6.072880" y="-2.25" z="-24.869198"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.645802" g=" 0.952361" b=" 0.489853"/>	
+					<reflective r=" 0.645802" g=" 0.952361" b=" 0.489853"/>	
+					<shininess value=" 6"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.129548" y="0.129548" z="0.129548"/>	
+					<translate x="-9.575792" y="-2.25" z="-28.178564"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0590533" g=" 0.96054" b=" 0.94406"/>	
+					<reflective r=" 0.0590533" g=" 0.96054" b=" 0.94406"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.160834" y="0.160834" z="0.160834"/>	
+					<translate x="6.387829" y="-2.25" z="-10.620808"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.993469" g=" 0.423505" b=" 0.604327"/>	
+					<reflective r=" 0.993469" g=" 0.423505" b=" 0.604327"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.141224" y="0.141224" z="0.141224"/>	
+					<translate x="8.123722" y="-2.25" z="-7.866238"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.36256" g=" 0.916959" b=" 0.794427"/>	
+					<reflective r=" 0.36256" g=" 0.916959" b=" 0.794427"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.117919" y="0.117919" z="0.117919"/>	
+					<translate x="-23.680838" y="-2.25" z="-39.740318"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.308084" g=" 0.957091" b=" 0.141484"/>	
+					<reflective r=" 0.308084" g=" 0.957091" b=" 0.141484"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.124516" y="0.124516" z="0.124516"/>	
+					<translate x="15.913265" y="-2.25" z="1.780418"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.860103" g=" 0.0201727" b=" 0.51738"/>	
+					<reflective r=" 0.860103" g=" 0.0201727" b=" 0.51738"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.127909" y="0.127909" z="0.127909"/>	
+					<translate x="11.333660" y="-2.25" z="-5.805565"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.222083" g=" 0.687185" b=" 0.60506"/>	
+					<reflective r=" 0.222083" g=" 0.687185" b=" 0.60506"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.121472" y="0.121472" z="0.121472"/>	
+					<translate x="-20.763878" y="-2.25" z="-25.265480"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.681143" g=" 0.913205" b=" 0.0901822"/>	
+					<reflective r=" 0.681143" g=" 0.913205" b=" 0.0901822"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.154460" y="0.154460" z="0.154460"/>	
+					<translate x="-21.267433" y="-2.25" z="-45.760582"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.143162" g=" 0.421918" b=" 0.477248"/>	
+					<reflective r=" 0.143162" g=" 0.421918" b=" 0.477248"/>	
+					<shininess value=" 8"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.147679" y="0.147679" z="0.147679"/>	
+					<translate x="-0.872524" y="-2.25" z="2.668415"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.292978" g=" 0.225288" b=" 0.531205"/>	
+					<reflective r=" 0.292978" g=" 0.225288" b=" 0.531205"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.175393" y="0.175393" z="0.175393"/>	
+					<translate x="5.153660" y="-2.25" z="-29.786341"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.379498" g=" 0.268044" b=" 0.34376"/>	
+					<reflective r=" 0.379498" g=" 0.268044" b=" 0.34376"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.163499" y="0.163499" z="0.163499"/>	
+					<translate x="19.705498" y="-2.25" z="-42.928371"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.625874" g=" 0.197119" b=" 0.0248115"/>	
+					<reflective r=" 0.625874" g=" 0.197119" b=" 0.0248115"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.133936" y="0.133936" z="0.133936"/>	
+					<translate x="4.071476" y="-2.25" z="-5.184452"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.264595" g=" 0.256294" b=" 0.0188299"/>	
+					<reflective r=" 0.264595" g=" 0.256294" b=" 0.0188299"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.145342" y="0.145342" z="0.145342"/>	
+					<translate x="15.671558" y="-2.25" z="-0.606983"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.197821" g=" 0.305643" b=" 0.0463576"/>	
+					<reflective r=" 0.197821" g=" 0.305643" b=" 0.0463576"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.139981" y="0.139981" z="0.139981"/>	
+					<translate x="-16.707970" y="-2.25" z="-4.239845"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.282357" g=" 0.966155" b=" 0.670247"/>	
+					<reflective r=" 0.282357" g=" 0.966155" b=" 0.670247"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.166898" y="0.166898" z="0.166898"/>	
+					<translate x="-0.182196" y="-2.25" z="-21.862301"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.239875" g=" 0.889126" b=" 0.487228"/>	
+					<reflective r=" 0.239875" g=" 0.889126" b=" 0.487228"/>	
+					<shininess value=" 8"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.171330" y="0.171330" z="0.171330"/>	
+					<translate x="-7.535936" y="-2.25" z="-11.110905"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.192083" g=" 0.150884" b=" 0.944273"/>	
+					<reflective r=" 0.192083" g=" 0.150884" b=" 0.944273"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.160385" y="0.160385" z="0.160385"/>	
+					<translate x="-29.481796" y="-2.25" z="-7.981079"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.820917" g=" 0.77221" b=" 0.77987"/>	
+					<reflective r=" 0.820917" g=" 0.77221" b=" 0.77987"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.154941" y="0.154941" z="0.154941"/>	
+					<translate x="10.570087" y="-2.25" z="-34.690544"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.153539" g=" 0.362743" b=" 0.09064"/>	
+					<reflective r=" 0.153539" g=" 0.362743" b=" 0.09064"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.147817" y="0.147817" z="0.147817"/>	
+					<translate x="-20.762047" y="-2.25" z="-0.928860"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.972716" g=" 0.890805" b=" 0.0226142"/>	
+					<reflective r=" 0.972716" g=" 0.890805" b=" 0.0226142"/>	
+					<shininess value=" 8"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.138186" y="0.138186" z="0.138186"/>	
+					<translate x="13.422955" y="-2.25" z="-22.485031"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.851741" g=" 0.577624" b=" 0.0876797"/>	
+					<reflective r=" 0.851741" g=" 0.577624" b=" 0.0876797"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.172239" y="0.172239" z="0.172239"/>	
+					<translate x="18.022705" y="-2.25" z="-44.230446"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.814875" g=" 0.917173" b=" 0.104984"/>	
+					<reflective r=" 0.814875" g=" 0.917173" b=" 0.104984"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.170097" y="0.170097" z="0.170097"/>	
+					<translate x="-18.822901" y="-2.25" z="-39.499313"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.622211" g=" 0.820399" b=" 0.767296"/>	
+					<reflective r=" 0.622211" g=" 0.820399" b=" 0.767296"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.158979" y="0.158979" z="0.158979"/>	
+					<translate x="27.006134" y="-2.25" z="-43.830929"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.680013" g=" 0.884976" b=" 0.832423"/>	
+					<reflective r=" 0.680013" g=" 0.884976" b=" 0.832423"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.162615" y="0.162615" z="0.162615"/>	
+					<translate x="25.825069" y="-2.25" z="-23.093203"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.575793" g=" 0.789697" b=" 0.939695"/>	
+					<reflective r=" 0.575793" g=" 0.789697" b=" 0.939695"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.146905" y="0.146905" z="0.146905"/>	
+					<translate x="21.906490" y="-2.25" z="0.020599"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.238502" g=" 0.814081" b=" 0.0513016"/>	
+					<reflective r=" 0.238502" g=" 0.814081" b=" 0.0513016"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.161840" y="0.161840" z="0.161840"/>	
+					<translate x="-21.311380" y="-2.25" z="-14.874783"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.723746" g=" 0.482925" b=" 0.518754"/>	
+					<reflective r=" 0.723746" g=" 0.482925" b=" 0.518754"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.129664" y="0.129664" z="0.129664"/>	
+					<translate x="-18.471329" y="-2.25" z="-27.107792"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.623768" g=" 0.335765" b=" 0.774224"/>	
+					<reflective r=" 0.623768" g=" 0.335765" b=" 0.774224"/>	
+					<shininess value=" 8"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.139286" y="0.139286" z="0.139286"/>	
+					<translate x="-2.070070" y="-2.25" z="-21.564684"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.102756" g=" 0.821467" b=" 0.646901"/>	
+					<reflective r=" 0.102756" g=" 0.821467" b=" 0.646901"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.156944" y="0.156944" z="0.156944"/>	
+					<translate x="-24.731895" y="-2.25" z="-2.693535"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.556963" g=" 0.317637" b=" 0.304575"/>	
+					<reflective r=" 0.556963" g=" 0.317637" b=" 0.304575"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.133121" y="0.133121" z="0.133121"/>	
+					<translate x="-23.955503" y="-2.25" z="-34.873318"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.899838" g=" 0.275369" b=" 0.819971"/>	
+					<reflective r=" 0.899838" g=" 0.275369" b=" 0.819971"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.145712" y="0.145712" z="0.145712"/>	
+					<translate x="-9.400005" y="-2.25" z="-11.149723"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.472213" g=" 0.488601" b=" 0.36198"/>	
+					<reflective r=" 0.472213" g=" 0.488601" b=" 0.36198"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.169431" y="0.169431" z="0.169431"/>	
+					<translate x="27.368694" y="-2.25" z="1.625141"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.577441" g=" 0.488662" b=" 0.0123295"/>	
+					<reflective r=" 0.577441" g=" 0.488662" b=" 0.0123295"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.151478" y="0.151478" z="0.151478"/>	
+					<translate x="0.588701" y="-2.25" z="-45.686180"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.64153" g=" 0.0638447" b=" 0.206885"/>	
+					<reflective r=" 0.64153" g=" 0.0638447" b=" 0.206885"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.173456" y="0.173456" z="0.173456"/>	
+					<translate x="15.567188" y="-2.25" z="-39.387707"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.998352" g=" 0.90405" b=" 0.801965"/>	
+					<reflective r=" 0.998352" g=" 0.90405" b=" 0.801965"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.149529" y="0.149529" z="0.149529"/>	
+					<translate x="-28.617512" y="-2.25" z="-28.191504"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.299783" g=" 0.370006" b=" 0.765893"/>	
+					<reflective r=" 0.299783" g=" 0.370006" b=" 0.765893"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.150846" y="0.150846" z="0.150846"/>	
+					<translate x="-18.855862" y="-2.25" z="-11.842007"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.550829" g=" 0.388165" b=" 0.495254"/>	
+					<reflective r=" 0.550829" g=" 0.388165" b=" 0.495254"/>	
+					<shininess value=" 8"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.166196" y="0.166196" z="0.166196"/>	
+					<translate x="-10.284433" y="-2.25" z="-41.108707"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.769799" g=" 0.469955" b=" 0.756493"/>	
+					<reflective r=" 0.769799" g=" 0.469955" b=" 0.756493"/>	
+					<shininess value=" 8"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.158919" y="0.158919" z="0.158919"/>	
+					<translate x="28.947113" y="-2.25" z="-46.160099"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.273446" g=" 0.856471" b=" 0.252144"/>	
+					<reflective r=" 0.273446" g=" 0.856471" b=" 0.252144"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.150084" y="0.150084" z="0.150084"/>	
+					<translate x="-29.589830" y="-2.25" z="-29.305948"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.587207" g=" 0.787927" b=" 0.812311"/>	
+					<reflective r=" 0.587207" g=" 0.787927" b=" 0.812311"/>	
+					<shininess value=" 8"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.167893" y="0.167893" z="0.167893"/>	
+					<translate x="-24.354687" y="-2.25" z="-39.127293"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.980255" g=" 0.898221" b=" 0.211097"/>	
+					<reflective r=" 0.980255" g=" 0.898221" b=" 0.211097"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.173343" y="0.173343" z="0.173343"/>	
+					<translate x="23.876766" y="-2.25" z="-31.958616"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.625599" g=" 0.734428" b=" 0.607929"/>	
+					<reflective r=" 0.625599" g=" 0.734428" b=" 0.607929"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.162151" y="0.162151" z="0.162151"/>	
+					<translate x="17.257301" y="-2.25" z="-44.772301"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.38554" g=" 0.401471" b=" 0.614093"/>	
+					<reflective r=" 0.38554" g=" 0.401471" b=" 0.614093"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.162902" y="0.162902" z="0.162902"/>	
+					<translate x="-16.398510" y="-2.25" z="-43.415234"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.221442" g=" 0.3314" b=" 0.983978"/>	
+					<reflective r=" 0.221442" g=" 0.3314" b=" 0.983978"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.141485" y="0.141485" z="0.141485"/>	
+					<translate x="16.625568" y="-2.25" z="-29.236397"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.229133" g=" 0.178167" b=" 0.931608"/>	
+					<reflective r=" 0.229133" g=" 0.178167" b=" 0.931608"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.141732" y="0.141732" z="0.141732"/>	
+					<translate x="13.670155" y="-2.25" z="-33.077911"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.299051" g=" 0.837031" b=" 0.0719932"/>	
+					<reflective r=" 0.299051" g=" 0.837031" b=" 0.0719932"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.162351" y="0.162351" z="0.162351"/>	
+					<translate x="-9.061251" y="-2.25" z="-49.652241"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.401257" g=" 0.589068" b=" 0.987671"/>	
+					<reflective r=" 0.401257" g=" 0.589068" b=" 0.987671"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.150080" y="0.150080" z="0.150080"/>	
+					<translate x="16.242867" y="-2.25" z="-18.279579"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.495712" g=" 0.3708" b=" 0.419721"/>	
+					<reflective r=" 0.495712" g=" 0.3708" b=" 0.419721"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.149111" y="0.149111" z="0.149111"/>	
+					<translate x="-0.782801" y="-2.25" z="-9.017883"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0673849" g=" 0.168706" b=" 0.0847194"/>	
+					<reflective r=" 0.0673849" g=" 0.168706" b=" 0.0847194"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.136737" y="0.136737" z="0.136737"/>	
+					<translate x="-0.929289" y="-2.25" z="-31.153111"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.286477" g=" 0.538682" b=" 0.115757"/>	
+					<reflective r=" 0.286477" g=" 0.538682" b=" 0.115757"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.155287" y="0.155287" z="0.155287"/>	
+					<translate x="29.815060" y="-2.25" z="-47.072361"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.793512" g=" 0.250557" b=" 0.12891"/>	
+					<reflective r=" 0.793512" g=" 0.250557" b=" 0.12891"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.110271" y="0.110271" z="0.110271"/>	
+					<translate x="22.994171" y="-2.25" z="-32.510178"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.109439" g=" 0.0577715" b=" 0.914823"/>	
+					<reflective r=" 0.109439" g=" 0.0577715" b=" 0.914823"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.154812" y="0.154812" z="0.154812"/>	
+					<translate x="7.925961" y="-2.25" z="-30.168066"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.670949" g=" 0.591815" b=" 0.754784"/>	
+					<reflective r=" 0.670949" g=" 0.591815" b=" 0.754784"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.150293" y="0.150293" z="0.150293"/>	
+					<translate x="29.432354" y="-2.25" z="-37.713615"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.490493" g=" 0.381664" b=" 0.362499"/>	
+					<reflective r=" 0.490493" g=" 0.381664" b=" 0.362499"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.143281" y="0.143281" z="0.143281"/>	
+					<translate x="-16.924040" y="-2.25" z="-48.147984"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.44145" g=" 0.998535" b=" 0.450301"/>	
+					<reflective r=" 0.44145" g=" 0.998535" b=" 0.450301"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.158691" y="0.158691" z="0.158691"/>	
+					<translate x="27.896053" y="-2.25" z="-30.554644"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.168371" g=" 0.325175" b=" 0.92056"/>	
+					<reflective r=" 0.168371" g=" 0.325175" b=" 0.92056"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.159200" y="0.159200" z="0.159200"/>	
+					<translate x="16.634724" y="-2.25" z="-10.219673"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.62212" g=" 0.950621" b=" 0.682119"/>	
+					<reflective r=" 0.62212" g=" 0.950621" b=" 0.682119"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.130897" y="0.130897" z="0.130897"/>	
+					<translate x="-16.521194" y="-2.25" z="-36.128483"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.219855" g=" 0.689505" b=" 0.0917081"/>	
+					<reflective r=" 0.219855" g=" 0.689505" b=" 0.0917081"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.135226" y="0.135226" z="0.135226"/>	
+					<translate x="9.295631" y="-2.25" z="-35.835720"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.630482" g=" 0.226753" b=" 0.0203253"/>	
+					<reflective r=" 0.630482" g=" 0.226753" b=" 0.0203253"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.127121" y="0.127121" z="0.127121"/>	
+					<translate x="4.360790" y="-2.25" z="-34.708336"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.184484" g=" 0.887112" b=" 0.544694"/>	
+					<reflective r=" 0.184484" g=" 0.887112" b=" 0.544694"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.169441" y="0.169441" z="0.169441"/>	
+					<translate x="8.597980" y="-2.25" z="2.445206"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.909421" g=" 0.529527" b=" 0.263558"/>	
+					<reflective r=" 0.909421" g=" 0.529527" b=" 0.263558"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.173614" y="0.173614" z="0.173614"/>	
+					<translate x="-10.690939" y="-2.25" z="-34.619373"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.189734" g=" 0.566851" b=" 0.239235"/>	
+					<reflective r=" 0.189734" g=" 0.566851" b=" 0.239235"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.146574" y="0.146574" z="0.146574"/>	
+					<translate x="-23.585619" y="-2.25" z="-17.938293"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0522172" g=" 0.110263" b=" 0.563921"/>	
+					<reflective r=" 0.0522172" g=" 0.110263" b=" 0.563921"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.143905" y="0.143905" z="0.143905"/>	
+					<translate x="-4.822229" y="-2.25" z="-39.111118"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0759606" g=" 0.238899" b=" 0.551134"/>	
+					<reflective r=" 0.0759606" g=" 0.238899" b=" 0.551134"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.169272" y="0.169272" z="0.169272"/>	
+					<translate x="-23.548998" y="-2.25" z="-12.400036"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.927641" g=" 0.394238" b=" 0.55208"/>	
+					<reflective r=" 0.927641" g=" 0.394238" b=" 0.55208"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.160065" y="0.160065" z="0.160065"/>	
+					<translate x="4.402905" y="-2.25" z="-13.241127"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.52147" g=" 0.899777" b=" 0.397107"/>	
+					<reflective r=" 0.52147" g=" 0.899777" b=" 0.397107"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.159335" y="0.159335" z="0.159335"/>	
+					<translate x="1.753288" y="-2.25" z="-27.104557"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.804651" g=" 0.605426" b=" 0.462142"/>	
+					<reflective r=" 0.804651" g=" 0.605426" b=" 0.462142"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.153946" y="0.153946" z="0.153946"/>	
+					<translate x="-7.490158" y="-2.25" z="-9.742516"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.167302" g=" 0.657216" b=" 0.359996"/>	
+					<reflective r=" 0.167302" g=" 0.657216" b=" 0.359996"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.138984" y="0.138984" z="0.138984"/>	
+					<translate x="-17.801142" y="-2.25" z="-46.823269"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.477767" g=" 0.391675" b=" 0.256844"/>	
+					<reflective r=" 0.477767" g=" 0.391675" b=" 0.256844"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.158436" y="0.158436" z="0.158436"/>	
+					<translate x="-4.391918" y="-2.25" z="-29.902798"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.742576" g=" 0.355419" b=" 0.813623"/>	
+					<reflective r=" 0.742576" g=" 0.355419" b=" 0.813623"/>	
+					<shininess value=" 8"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.122091" y="0.122091" z="0.122091"/>	
+					<translate x="-27.994934" y="-2.25" z="-14.821407"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.391827" g=" 0.44969" b=" 0.752373"/>	
+					<reflective r=" 0.391827" g=" 0.44969" b=" 0.752373"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.128710" y="0.128710" z="0.128710"/>	
+					<translate x="-2.106693" y="-2.25" z="-43.433029"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.189184" g=" 0.199866" b=" 0.0477309"/>	
+					<reflective r=" 0.189184" g=" 0.199866" b=" 0.0477309"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.175440" y="0.175440" z="0.175440"/>	
+					<translate x="-22.776268" y="-2.25" z="-11.732018"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.767113" g=" 0.149998" b=" 0.7434"/>	
+					<reflective r=" 0.767113" g=" 0.149998" b=" 0.7434"/>	
+					<shininess value=" 8"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.143477" y="0.143477" z="0.143477"/>	
+					<translate x="-0.850552" y="-2.25" z="-8.349865"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.78695" g=" 0.382366" b=" 0.393292"/>	
+					<reflective r=" 0.78695" g=" 0.382366" b=" 0.393292"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.119976" y="0.119976" z="0.119976"/>	
+					<translate x="23.243202" y="-2.25" z="-10.423473"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.724204" g=" 0.161931" b=" 0.128178"/>	
+					<reflective r=" 0.724204" g=" 0.161931" b=" 0.128178"/>	
+					<shininess value=" 6"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.156229" y="0.156229" z="0.156229"/>	
+					<translate x="22.243416" y="-2.25" z="-49.847958"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.278573" g=" 0.706015" b=" 0.347026"/>	
+					<reflective r=" 0.278573" g=" 0.706015" b=" 0.347026"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.132058" y="0.132058" z="0.132058"/>	
+					<translate x="-17.716911" y="-2.25" z="-1.884792"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.409162" g=" 0.0786462" b=" 0.0334178"/>	
+					<reflective r=" 0.409162" g=" 0.0786462" b=" 0.0334178"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.126496" y="0.126496" z="0.126496"/>	
+					<translate x="0.628986" y="-2.25" z="-3.173923"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.99469" g=" 0.210273" b=" 0.696921"/>	
+					<reflective r=" 0.99469" g=" 0.210273" b=" 0.696921"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.164698" y="0.164698" z="0.164698"/>	
+					<translate x="0.907316" y="-2.25" z="-15.089909"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.118412" g=" 0.0421766" b=" 0.939451"/>	
+					<reflective r=" 0.118412" g=" 0.0421766" b=" 0.939451"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.171094" y="0.171094" z="0.171094"/>	
+					<translate x="25.847042" y="-2.25" z="-16.501968"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.978698" g=" 0.795984" b=" 0.646779"/>	
+					<reflective r=" 0.978698" g=" 0.795984" b=" 0.646779"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.168821" y="0.168821" z="0.168821"/>	
+					<translate x="27.509689" y="-2.25" z="-30.882992"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.42375" g=" 0.368297" b=" 0.804956"/>	
+					<reflective r=" 0.42375" g=" 0.368297" b=" 0.804956"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.135370" y="0.135370" z="0.135370"/>	
+					<translate x="-4.977875" y="-2.25" z="-40.811089"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.112033" g=" 0.850215" b=" 0.941557"/>	
+					<reflective r=" 0.112033" g=" 0.850215" b=" 0.941557"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.174514" y="0.174514" z="0.174514"/>	
+					<translate x="-0.180365" y="-2.25" z="-1.841122"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.297372" g=" 0.171697" b=" 0.192236"/>	
+					<reflective r=" 0.297372" g=" 0.171697" b=" 0.192236"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.154461" y="0.154461" z="0.154461"/>	
+					<translate x="-21.633656" y="-2.25" z="-8.752617"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.23899" g=" 0.871426" b=" 0.992157"/>	
+					<reflective r=" 0.23899" g=" 0.871426" b=" 0.992157"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.162273" y="0.162273" z="0.162273"/>	
+					<translate x="-27.593922" y="-2.25" z="-31.166052"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.236854" g=" 0.990905" b=" 0.392163"/>	
+					<reflective r=" 0.236854" g=" 0.990905" b=" 0.392163"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.154534" y="0.154534" z="0.154534"/>	
+					<translate x="-13.320414" y="-2.25" z="-13.538742"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.291696" g=" 0.0943327" b=" 0.000457778"/>	
+					<reflective r=" 0.291696" g=" 0.0943327" b=" 0.000457778"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.134255" y="0.134255" z="0.134255"/>	
+					<translate x="4.172184" y="-2.25" z="-21.542040"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.39021" g=" 0.413099" b=" 0.548967"/>	
+					<reflective r=" 0.39021" g=" 0.413099" b=" 0.548967"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.154045" y="0.154045" z="0.154045"/>	
+					<translate x="-21.157566" y="-2.25" z="-10.801964"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.415204" g=" 0.115116" b=" 0.0845058"/>	
+					<reflective r=" 0.415204" g=" 0.115116" b=" 0.0845058"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.135523" y="0.135523" z="0.135523"/>	
+					<translate x="-14.142583" y="-2.25" z="-13.022766"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.680776" g=" 0.699545" b=" 0.785546"/>	
+					<reflective r=" 0.680776" g=" 0.699545" b=" 0.785546"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.134985" y="0.134985" z="0.134985"/>	
+					<translate x="-10.674459" y="-2.25" z="2.519608"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0924406" g=" 0.51619" b=" 0.403241"/>	
+					<reflective r=" 0.0924406" g=" 0.51619" b=" 0.403241"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.165310" y="0.165310" z="0.165310"/>	
+					<translate x="7.537766" y="-2.25" z="-43.900478"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.93234" g=" 0.410138" b=" 0.328196"/>	
+					<reflective r=" 0.93234" g=" 0.410138" b=" 0.328196"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.154127" y="0.154127" z="0.154127"/>	
+					<translate x="15.686207" y="-2.25" z="-31.693350"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.269265" g=" 0.491256" b=" 0.281625"/>	
+					<reflective r=" 0.269265" g=" 0.491256" b=" 0.281625"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.178245" y="0.178245" z="0.178245"/>	
+					<translate x="6.120487" y="-2.25" z="-11.583210"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.994049" g=" 0.0286874" b=" 0.631825"/>	
+					<reflective r=" 0.994049" g=" 0.0286874" b=" 0.631825"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.174286" y="0.174286" z="0.174286"/>	
+					<translate x="26.064945" y="-2.25" z="-40.605671"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.479415" g=" 0.470473" b=" 0.335643"/>	
+					<reflective r=" 0.479415" g=" 0.470473" b=" 0.335643"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.125627" y="0.125627" z="0.125627"/>	
+					<translate x="12.857143" y="-2.25" z="-10.468765"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.865413" g=" 0.587878" b=" 0.504807"/>	
+					<reflective r=" 0.865413" g=" 0.587878" b=" 0.504807"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.175553" y="0.175553" z="0.175553"/>	
+					<translate x="26.687523" y="-2.25" z="0.687000"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.969451" g=" 0.745201" b=" 0.597339"/>	
+					<reflective r=" 0.969451" g=" 0.745201" b=" 0.597339"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.156664" y="0.156664" z="0.156664"/>	
+					<translate x="-19.174475" y="-2.25" z="-33.821953"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.821406" g=" 0.294076" b=" 0.233985"/>	
+					<reflective r=" 0.821406" g=" 0.294076" b=" 0.233985"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.156559" y="0.156559" z="0.156559"/>	
+					<translate x="9.367046" y="-2.25" z="-3.719017"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.823908" g=" 0.093173" b=" 0.639699"/>	
+					<reflective r=" 0.823908" g=" 0.093173" b=" 0.639699"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.159725" y="0.159725" z="0.159725"/>	
+					<translate x="-27.549974" y="-2.25" z="-46.645344"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.537339" g=" 0.152593" b=" 0.709861"/>	
+					<reflective r=" 0.537339" g=" 0.152593" b=" 0.709861"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.185721" y="0.185721" z="0.185721"/>	
+					<translate x="19.006012" y="-2.25" z="-25.398113"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0901212" g=" 0.403485" b=" 0.701834"/>	
+					<reflective r=" 0.0901212" g=" 0.403485" b=" 0.701834"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.113582" y="0.113582" z="0.113582"/>	
+					<translate x="-13.018280" y="-2.25" z="-5.556473"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.213874" g=" 0.592578" b=" 0.551286"/>	
+					<reflective r=" 0.213874" g=" 0.592578" b=" 0.551286"/>	
+					<shininess value=" 6"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.172491" y="0.172491" z="0.172491"/>	
+					<translate x="-18.914455" y="-2.25" z="-37.479080"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.9035" g=" 0.301553" b=" 0.813746"/>	
+					<reflective r=" 0.9035" g=" 0.301553" b=" 0.813746"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.178678" y="0.178678" z="0.178678"/>	
+					<translate x="28.013245" y="-2.25" z="-37.668324"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.702231" g=" 0.0918607" b=" 0.23072"/>	
+					<reflective r=" 0.702231" g=" 0.0918607" b=" 0.23072"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.128603" y="0.128603" z="0.128603"/>	
+					<translate x="9.182102" y="-2.25" z="-34.520706"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.612079" g=" 0.774071" b=" 0.921506"/>	
+					<reflective r=" 0.612079" g=" 0.774071" b=" 0.921506"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.168357" y="0.168357" z="0.168357"/>	
+					<translate x="-9.030121" y="-2.25" z="-36.450363"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.628803" g=" 0.802332" b=" 0.199164"/>	
+					<reflective r=" 0.628803" g=" 0.802332" b=" 0.199164"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.189331" y="0.189331" z="0.189331"/>	
+					<translate x="-7.552416" y="-2.25" z="0.619068"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.902036" g=" 0.794092" b=" 0.0122379"/>	
+					<reflective r=" 0.902036" g=" 0.794092" b=" 0.0122379"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.130126" y="0.130126" z="0.130126"/>	
+					<translate x="-29.386578" y="-2.25" z="0.379681"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.520524" g=" 0.174474" b=" 0.0110172"/>	
+					<reflective r=" 0.520524" g=" 0.174474" b=" 0.0110172"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.164727" y="0.164727" z="0.164727"/>	
+					<translate x="23.127842" y="-2.25" z="-29.102146"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.922269" g=" 0.946013" b=" 0.239051"/>	
+					<reflective r=" 0.922269" g=" 0.946013" b=" 0.239051"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.156905" y="0.156905" z="0.156905"/>	
+					<translate x="28.546097" y="-2.25" z="-49.008484"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.929655" g=" 0.582812" b=" 0.449355"/>	
+					<reflective r=" 0.929655" g=" 0.582812" b=" 0.449355"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.130885" y="0.130885" z="0.130885"/>	
+					<translate x="-15.948057" y="-2.25" z="-36.770622"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.409619" g=" 0.0504776" b=" 0.0460524"/>	
+					<reflective r=" 0.409619" g=" 0.0504776" b=" 0.0460524"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.118269" y="0.118269" z="0.118269"/>	
+					<translate x="20.697960" y="-2.25" z="-26.431684"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.558855" g=" 0.95053" b=" 0.650624"/>	
+					<reflective r=" 0.558855" g=" 0.95053" b=" 0.650624"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.161186" y="0.161186" z="0.161186"/>	
+					<translate x="-23.867611" y="-2.25" z="-36.405071"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.813868" g=" 0.789636" b=" 0.293374"/>	
+					<reflective r=" 0.813868" g=" 0.789636" b=" 0.293374"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.121711" y="0.121711" z="0.121711"/>	
+					<translate x="24.841763" y="-2.25" z="-43.580219"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.386181" g=" 0.374676" b=" 0.229865"/>	
+					<reflective r=" 0.386181" g=" 0.374676" b=" 0.229865"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.157536" y="0.157536" z="0.157536"/>	
+					<translate x="25.874508" y="-2.25" z="-3.827389"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.42259" g=" 0.331767" b=" 0.382183"/>	
+					<reflective r=" 0.42259" g=" 0.331767" b=" 0.382183"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.143874" y="0.143874" z="0.143874"/>	
+					<translate x="-11.917784" y="-2.25" z="-24.872433"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.790124" g=" 0.751213" b=" 0.405591"/>	
+					<reflective r=" 0.790124" g=" 0.751213" b=" 0.405591"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.121633" y="0.121633" z="0.121633"/>	
+					<translate x="-27.141636" y="-2.25" z="-2.536636"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.486343" g=" 0.956633" b=" 0.37965"/>	
+					<reflective r=" 0.486343" g=" 0.956633" b=" 0.37965"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.141821" y="0.141821" z="0.141821"/>	
+					<translate x="-25.636463" y="-2.25" z="-45.356213"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.67449" g=" 0.399823" b=" 0.124882"/>	
+					<reflective r=" 0.67449" g=" 0.399823" b=" 0.124882"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.126213" y="0.126213" z="0.126213"/>	
+					<translate x="17.264626" y="-2.25" z="-44.584675"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.343516" g=" 0.680197" b=" 0.143956"/>	
+					<reflective r=" 0.343516" g=" 0.680197" b=" 0.143956"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.124266" y="0.124266" z="0.124266"/>	
+					<translate x="-8.035830" y="-2.25" z="-32.558701"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.593493" g=" 0.689138" b=" 0.188299"/>	
+					<reflective r=" 0.593493" g=" 0.689138" b=" 0.188299"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.156289" y="0.156289" z="0.156289"/>	
+					<translate x="7.347332" y="-2.25" z="-4.448502"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.545457" g=" 0.879818" b=" 0.449293"/>	
+					<reflective r=" 0.545457" g=" 0.879818" b=" 0.449293"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.182844" y="0.182844" z="0.182844"/>	
+					<translate x="0.997040" y="-2.25" z="1.625141"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.876797" g=" 0.661489" b=" 0.37492"/>	
+					<reflective r=" 0.876797" g=" 0.661489" b=" 0.37492"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.120416" y="0.120416" z="0.120416"/>	
+					<translate x="-13.051241" y="-2.25" z="-9.912350"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.981292" g=" 0.919187" b=" 0.110874"/>	
+					<reflective r=" 0.981292" g=" 0.919187" b=" 0.110874"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.143336" y="0.143336" z="0.143336"/>	
+					<translate x="-19.088413" y="-2.25" z="-5.946289"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.754357" g=" 0.658132" b=" 0.567339"/>	
+					<reflective r=" 0.754357" g=" 0.658132" b=" 0.567339"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.141930" y="0.141930" z="0.141930"/>	
+					<translate x="23.006989" y="-2.25" z="-37.935211"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.00311289" g=" 0.773309" b=" 0.109958"/>	
+					<reflective r=" 0.00311289" g=" 0.773309" b=" 0.109958"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.166945" y="0.166945" z="0.166945"/>	
+					<translate x="-2.004150" y="-2.25" z="-30.520676"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.481613" g=" 0.94406" b=" 0.876675"/>	
+					<reflective r=" 0.481613" g=" 0.94406" b=" 0.876675"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.140206" y="0.140206" z="0.140206"/>	
+					<translate x="-26.971344" y="-2.25" z="-40.529648"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.55092" g=" 0.653523" b=" 0.718802"/>	
+					<reflective r=" 0.55092" g=" 0.653523" b=" 0.718802"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.191533" y="0.191533" z="0.191533"/>	
+					<translate x="-27.130650" y="-2.25" z="-32.340340"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.464339" g=" 0.333171" b=" 0.767571"/>	
+					<reflective r=" 0.464339" g=" 0.333171" b=" 0.767571"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.131901" y="0.131901" z="0.131901"/>	
+					<translate x="-27.376019" y="-2.25" z="-17.634205"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.277566" g=" 0.632466" b=" 0.625599"/>	
+					<reflective r=" 0.277566" g=" 0.632466" b=" 0.625599"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.162865" y="0.162865" z="0.162865"/>	
+					<translate x="-12.009338" y="-2.25" z="-29.512985"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.38374" g=" 0.813196" b=" 0.183142"/>	
+					<reflective r=" 0.38374" g=" 0.813196" b=" 0.183142"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.162208" y="0.162208" z="0.162208"/>	
+					<translate x="22.981354" y="-2.25" z="-36.993835"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.673788" g=" 0.269143" b=" 0.0596637"/>	
+					<reflective r=" 0.673788" g=" 0.269143" b=" 0.0596637"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.145871" y="0.145871" z="0.145871"/>	
+					<translate x="-4.844204" y="-2.25" z="-11.885677"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.32139" g=" 0.170598" b=" 0.670095"/>	
+					<reflective r=" 0.32139" g=" 0.170598" b=" 0.670095"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.136106" y="0.136106" z="0.136106"/>	
+					<translate x="-1.630604" y="-2.25" z="-42.029053"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.193243" g=" 0.233894" b=" 0.916318"/>	
+					<reflective r=" 0.193243" g=" 0.233894" b=" 0.916318"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.145892" y="0.145892" z="0.145892"/>	
+					<translate x="2.992950" y="-2.25" z="-13.920467"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.884243" g=" 0.615833" b=" 0.503555"/>	
+					<reflective r=" 0.884243" g=" 0.615833" b=" 0.503555"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.149607" y="0.149607" z="0.149607"/>	
+					<translate x="13.651844" y="-2.25" z="-30.711538"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.377483" g=" 0.933378" b=" 0.881832"/>	
+					<reflective r=" 0.377483" g=" 0.933378" b=" 0.881832"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.139929" y="0.139929" z="0.139929"/>	
+					<translate x="24.466385" y="-2.25" z="-28.573229"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.32963" g=" 0.408002" b=" 0.812281"/>	
+					<reflective r=" 0.32963" g=" 0.408002" b=" 0.812281"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.141010" y="0.141010" z="0.141010"/>	
+					<translate x="11.774956" y="-2.25" z="-22.444593"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.980926" g=" 0.135472" b=" 0.55855"/>	
+					<reflective r=" 0.980926" g=" 0.135472" b=" 0.55855"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.177890" y="0.177890" z="0.177890"/>	
+					<translate x="24.380322" y="-2.25" z="-27.157934"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.690329" g=" 0.480148" b=" 0.703391"/>	
+					<reflective r=" 0.690329" g=" 0.480148" b=" 0.703391"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.152150" y="0.152150" z="0.152150"/>	
+					<translate x="11.271400" y="-2.25" z="-24.930662"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0958281" g=" 0.594592" b=" 0.589831"/>	
+					<reflective r=" 0.0958281" g=" 0.594592" b=" 0.589831"/>	
+					<shininess value=" 8"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.173845" y="0.173845" z="0.173845"/>	
+					<translate x="-13.131809" y="-2.25" z="-32.235207"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.899472" g=" 0.0641194" b=" 0.387677"/>	
+					<reflective r=" 0.899472" g=" 0.0641194" b=" 0.387677"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.139645" y="0.139645" z="0.139645"/>	
+					<translate x="-6.243172" y="-2.25" z="-1.050171"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.277474" g=" 0.676321" b=" 0.784997"/>	
+					<reflective r=" 0.277474" g=" 0.676321" b=" 0.784997"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.107272" y="0.107272" z="0.107272"/>	
+					<translate x="-17.090672" y="-2.25" z="-31.479843"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.915586" g=" 0.315561" b=" 0.304361"/>	
+					<reflective r=" 0.915586" g=" 0.315561" b=" 0.304361"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.146152" y="0.146152" z="0.146152"/>	
+					<translate x="-28.564409" y="-2.25" z="-47.741997"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.668935" g=" 0.982635" b=" 0.244423"/>	
+					<reflective r=" 0.668935" g=" 0.982635" b=" 0.244423"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.114319" y="0.114319" z="0.114319"/>	
+					<translate x="-2.190924" y="-2.25" z="2.448441"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.84756" g=" 0.939024" b=" 0.246223"/>	
+					<reflective r=" 0.84756" g=" 0.939024" b=" 0.246223"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.121604" y="0.121604" z="0.121604"/>	
+					<translate x="-5.399029" y="-2.25" z="-44.862881"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.126194" g=" 0.976775" b=" 0.484542"/>	
+					<reflective r=" 0.126194" g=" 0.976775" b=" 0.484542"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.179032" y="0.179032" z="0.179032"/>	
+					<translate x="-1.284525" y="-2.25" z="-13.981934"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0797144" g=" 0.812799" b=" 0.484481"/>	
+					<reflective r=" 0.0797144" g=" 0.812799" b=" 0.484481"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.144483" y="0.144483" z="0.144483"/>	
+					<translate x="-20.875576" y="-2.25" z="-46.079227"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.34312" g=" 0.608417" b=" 0.562731"/>	
+					<reflective r=" 0.34312" g=" 0.608417" b=" 0.562731"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.154619" y="0.154619" z="0.154619"/>	
+					<translate x="2.106693" y="-2.25" z="-30.041903"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.396771" g=" 0.614002" b=" 0.893979"/>	
+					<reflective r=" 0.396771" g=" 0.614002" b=" 0.893979"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.143043" y="0.143043" z="0.143043"/>	
+					<translate x="13.972290" y="-2.25" z="-33.734612"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.976501" g=" 0.938475" b=" 0.202368"/>	
+					<reflective r=" 0.976501" g=" 0.938475" b=" 0.202368"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.134704" y="0.134704" z="0.134704"/>	
+					<translate x="21.302223" y="-2.25" z="-39.612537"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.108798" g=" 0.443678" b=" 0.0779443"/>	
+					<reflective r=" 0.108798" g=" 0.443678" b=" 0.0779443"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.156579" y="0.156579" z="0.156579"/>	
+					<translate x="8.687706" y="-2.25" z="-44.723778"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.770989" g=" 0.764214" b=" 0.917966"/>	
+					<reflective r=" 0.770989" g=" 0.764214" b=" 0.917966"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.144568" y="0.144568" z="0.144568"/>	
+					<translate x="13.953979" y="-2.25" z="-48.071964"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.176275" g=" 0.451613" b=" 0.493271"/>	
+					<reflective r=" 0.176275" g=" 0.451613" b=" 0.493271"/>	
+					<shininess value=" 2"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.126674" y="0.126674" z="0.126674"/>	
+					<translate x="0.905483" y="-2.25" z="-31.368237"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.684103" g=" 0.244209" b=" 0.139866"/>	
+					<reflective r=" 0.684103" g=" 0.244209" b=" 0.139866"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.152403" y="0.152403" z="0.152403"/>	
+					<translate x="9.551987" y="-2.25" z="-39.156406"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.335093" g=" 0.46144" b=" 0.575243"/>	
+					<reflective r=" 0.335093" g=" 0.46144" b=" 0.575243"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.148440" y="0.148440" z="0.148440"/>	
+					<translate x="-16.153141" y="-2.25" z="-40.296730"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0113224" g=" 0.523453" b=" 0.339671"/>	
+					<reflective r=" 0.0113224" g=" 0.523453" b=" 0.339671"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.120557" y="0.120557" z="0.120557"/>	
+					<translate x="-3.077181" y="-2.25" z="-47.848751"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.221503" g=" 0.59566" b=" 0.862758"/>	
+					<reflective r=" 0.221503" g=" 0.59566" b=" 0.862758"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.141780" y="0.141780" z="0.141780"/>	
+					<translate x="-26.182135" y="-2.25" z="-20.309519"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.511002" g=" 0.358165" b=" 0.154759"/>	
+					<reflective r=" 0.511002" g=" 0.358165" b=" 0.154759"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.166796" y="0.166796" z="0.166796"/>	
+					<translate x="-8.275703" y="-2.25" z="-21.242805"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.497147" g=" 0.90054" b=" 0.123081"/>	
+					<reflective r=" 0.497147" g=" 0.90054" b=" 0.123081"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.112627" y="0.112627" z="0.112627"/>	
+					<translate x="17.709587" y="-2.25" z="-1.265297"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.529313" g=" 0.740959" b=" 0.513657"/>	
+					<reflective r=" 0.529313" g=" 0.740959" b=" 0.513657"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.155539" y="0.155539" z="0.155539"/>	
+					<translate x="-16.045105" y="-2.25" z="2.574604"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.974059" g=" 0.971191" b=" 0.477218"/>	
+					<reflective r=" 0.974059" g=" 0.971191" b=" 0.477218"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.134204" y="0.134204" z="0.134204"/>	
+					<translate x="20.496536" y="-2.25" z="-7.947113"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.12534" g=" 0.525712" b=" 0.760918"/>	
+					<reflective r=" 0.12534" g=" 0.525712" b=" 0.760918"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.129118" y="0.129118" z="0.129118"/>	
+					<translate x="5.448471" y="-2.25" z="-19.348736"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.739708" g=" 0.576556" b=" 0.524491"/>	
+					<reflective r=" 0.739708" g=" 0.576556" b=" 0.524491"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.168264" y="0.168264" z="0.168264"/>	
+					<translate x="-7.255775" y="-2.25" z="-26.941191"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.196173" g=" 0.0526444" b=" 0.782006"/>	
+					<reflective r=" 0.196173" g=" 0.0526444" b=" 0.782006"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.129026" y="0.129026" z="0.129026"/>	
+					<translate x="17.372662" y="-2.25" z="-48.701164"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.281869" g=" 0.284463" b=" 0.467849"/>	
+					<reflective r=" 0.281869" g=" 0.284463" b=" 0.467849"/>	
+					<shininess value=" 9"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.136350" y="0.136350" z="0.136350"/>	
+					<translate x="-1.897945" y="-2.25" z="-26.512558"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.601672" g=" 0.7734" b=" 0.128483"/>	
+					<reflective r=" 0.601672" g=" 0.7734" b=" 0.128483"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.147163" y="0.147163" z="0.147163"/>	
+					<translate x="-22.270882" y="-2.25" z="-38.790855"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.613788" g=" 0.0864895" b=" 0.238655"/>	
+					<reflective r=" 0.613788" g=" 0.0864895" b=" 0.238655"/>	
+					<shininess value=" 7"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.181037" y="0.181037" z="0.181037"/>	
+					<translate x="-19.194616" y="-2.25" z="-29.477402"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.289621" g=" 0.87582" b=" 0.142918"/>	
+					<reflective r=" 0.289621" g=" 0.87582" b=" 0.142918"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.137093" y="0.137093" z="0.137093"/>	
+					<translate x="28.866543" y="-2.25" z="-7.411724"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.39906" g=" 0.023072" b=" 0.621937"/>	
+					<reflective r=" 0.39906" g=" 0.023072" b=" 0.621937"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.157185" y="0.157185" z="0.157185"/>	
+					<translate x="13.175755" y="-2.25" z="-27.080294"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.420667" g=" 0.909146" b=" 0.0838954"/>	
+					<reflective r=" 0.420667" g=" 0.909146" b=" 0.0838954"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.145290" y="0.145290" z="0.145290"/>	
+					<translate x="24.955292" y="-2.25" z="-3.728722"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.076693" g=" 0.808496" b=" 0.381085"/>	
+					<reflective r=" 0.076693" g=" 0.808496" b=" 0.381085"/>	
+					<shininess value=" 1"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.163192" y="0.163192" z="0.163192"/>	
+					<translate x="3.119297" y="-2.25" z="1.130192"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.493393" g=" 0.408918" b=" 0.251015"/>	
+					<reflective r=" 0.493393" g=" 0.408918" b=" 0.251015"/>	
+					<shininess value=" 11"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.162383" y="0.162383" z="0.162383"/>	
+					<translate x="19.509567" y="-2.25" z="-22.143742"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.986084" g=" 0.455824" b=" 0.383099"/>	
+					<reflective r=" 0.986084" g=" 0.455824" b=" 0.383099"/>	
+					<shininess value=" 0"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.162239" y="0.162239" z="0.162239"/>	
+					<translate x="1.628773" y="-2.25" z="-38.572495"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.469253" g=" 0.522019" b=" 0.109867"/>	
+					<reflective r=" 0.469253" g=" 0.522019" b=" 0.109867"/>	
+					<shininess value=" 8"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.154417" y="0.154417" z="0.154417"/>	
+					<translate x="-27.123325" y="-2.25" z="-22.172857"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.491958" g=" 0.902005" b=" 0.723472"/>	
+					<reflective r=" 0.491958" g=" 0.902005" b=" 0.723472"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.163542" y="0.163542" z="0.163542"/>	
+					<translate x="-29.718008" y="-2.25" z="-2.962036"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.897641" g=" 0.631672" b=" 0.417066"/>	
+					<reflective r=" 0.897641" g=" 0.631672" b=" 0.417066"/>	
+					<shininess value=" 6"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.134097" y="0.134097" z="0.134097"/>	
+					<translate x="-0.257271" y="-2.25" z="-1.323528"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.1095" g=" 0.63274" b=" 0.851222"/>	
+					<reflective r=" 0.1095" g=" 0.63274" b=" 0.851222"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.123603" y="0.123603" z="0.123603"/>	
+					<translate x="28.749352" y="-2.25" z="-8.749382"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.0406812" g=" 0.982391" b=" 0.345256"/>	
+					<reflective r=" 0.0406812" g=" 0.982391" b=" 0.345256"/>	
+					<shininess value=" 5"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.152031" y="0.152031" z="0.152031"/>	
+					<translate x="16.629230" y="-2.25" z="-14.968597"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.629322" g=" 0.307657" b=" 0.693838"/>	
+					<reflective r=" 0.629322" g=" 0.307657" b=" 0.693838"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.177461" y="0.177461" z="0.177461"/>	
+					<translate x="-17.724236" y="-2.25" z="-28.440596"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.998657" g=" 0.305063" b=" 0.608112"/>	
+					<reflective r=" 0.998657" g=" 0.305063" b=" 0.608112"/>	
+					<shininess value=" 13"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.147996" y="0.147996" z="0.147996"/>	
+					<translate x="-10.612202" y="-2.25" z="-37.221901"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.242286" g=" 0.385144" b=" 0.782373"/>	
+					<reflective r=" 0.242286" g=" 0.385144" b=" 0.782373"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.159936" y="0.159936" z="0.159936"/>	
+					<translate x="-10.798975" y="-2.25" z="-16.220528"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.834437" g=" 0.441877" b=" 0.585253"/>	
+					<reflective r=" 0.834437" g=" 0.441877" b=" 0.585253"/>	
+					<shininess value=" 3"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.182176" y="0.182176" z="0.182176"/>	
+					<translate x="0.716879" y="-2.25" z="-33.812248"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.664815" g=" 0.747429" b=" 0.376354"/>	
+					<reflective r=" 0.664815" g=" 0.747429" b=" 0.376354"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.136883" y="0.136883" z="0.136883"/>	
+					<translate x="28.447220" y="-2.25" z="-33.831657"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.699026" g=" 0.971374" b=" 0.447401"/>	
+					<reflective r=" 0.699026" g=" 0.971374" b=" 0.447401"/>	
+					<shininess value=" 10"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.156410" y="0.156410" z="0.156410"/>	
+					<translate x="17.640003" y="-2.25" z="-34.955811"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.263588" g=" 0.325541" b=" 0.588885"/>	
+					<reflective r=" 0.263588" g=" 0.325541" b=" 0.588885"/>	
+					<shininess value=" 4"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.136449" y="0.136449" z="0.136449"/>	
+					<translate x="27.022614" y="-2.25" z="-5.436779"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.956206" g=" 0.833369" b=" 0.281259"/>	
+					<reflective r=" 0.956206" g=" 0.833369" b=" 0.281259"/>	
+					<shininess value=" 14"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.165456" y="0.165456" z="0.165456"/>	
+					<translate x="19.024323" y="-2.25" z="-49.238167"/>    
+					<object type="primitive" name="sphere">	
+					<diffuse r=" 0.180731" g=" 0.724418" b=" 0.511551"/>	
+					<reflective r=" 0.180731" g=" 0.724418" b=" 0.511551"/>	
+					<shininess value=" 12"/>	
+					</object>    
+				</transblock>
+</object>
+</scenefile>

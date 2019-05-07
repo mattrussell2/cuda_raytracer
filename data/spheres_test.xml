@@ -1,0 +1,131 @@
+<scenefile>				<globaldata>
+				<diffusecoeff v = "0.5" />
+				<specularcoeff v = "0.75" />
+				<ambientcoeff v = "1" />
+				</globaldata>
+
+				<cameradata>
+				<pos x = "0" y = "1.0" z = "3.0" />
+				<focus x = "0" y = "0" z = "-7" />
+				<up x = "0" y = "1" z = "0" />
+				</cameradata>
+
+				<lightdata>
+				<id v = "0" />
+				<type id = "directional" />
+				<color r = "1" g = "1" b = "1" />
+				<direction x = "0" y = "-2" z = "2" />
+				</lightdata>
+				<lightdata>
+				<id v = "1" />
+				<type id = "point" />
+				<color r = "1" g = "1" b = "1" />
+				<position x = "0" y = "1" z = "0" />
+				</lightdata>
+				
+				<object type = "tree" name = "root">
+				
+		<transblock name = "floor">
+				
+			<translate x = "0" y = "-2.75" z = "-5" />
+				
+			<scale x = "20" y = "5" z = "20" />
+				
+			<object type = "primitive" name = "cube">
+				
+			<ambient r = ".5" g = "0.5" b = "0.5" />
+				
+			<diffuse r = "0.5" g = "0.5" b = "0.5" />
+				
+			</object></transblock>
+ 
+				<transblock name="sphere">	
+					<scale x="0.091644" y="0.091644" z="0.091644"/>	
+					<translate x="-9.787592" y="0" z="-3.332774"/>    
+					<object type="primitive" name="sphere">   
+					<reflective r="0.8" g="0.6" b="0.6"/>					
+					<diffuse r=" 0.871242" g=" 0.505997" b=" 0.617206"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.079206" y="0.079206" z="0.079206"/>	
+					<translate x="-4.568926" y="0" z="-0.177099"/>    
+					<object type="primitive" name="sphere">    
+					<reflective r="0.8" g="0.6" b="0.6"/>
+					<diffuse r=" 0.689566" g=" 0.561571" b=" 0.996429"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.086007" y="0.086007" z="0.086007"/>	
+					<translate x="5.438704" y="0" z="-0.225898"/>    
+					<object type="primitive" name="sphere">    
+					<reflective r="0.8" g="0.6" b="0.6"/>
+					<diffuse r=" 0.733177" g=" 0.626453" b=" 0.590991"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.080337" y="0.080337" z="0.080337"/>	
+					<translate x="1.534776" y="0" z="-1.516099"/>    
+					<object type="primitive" name="sphere">    
+					<reflective r="0.8" g="0.6" b="0.6"/>
+					<diffuse r=" 0.0266427" g=" 0.694784" b=" 0.0820338"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.372023" y="0.372023" z="0.372023"/>	
+					<translate x="-4.381542" y="0" z="0.218848"/>    
+					<object type="primitive" name="sphere">   
+					<reflective r="0.8" g="0.6" b="0.6"/>					
+					<diffuse r=" 0.942228" g=" 0.448134" b=" 0.178991"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.086094" y="0.086094" z="0.086094"/>	
+					<translate x="8.126163" y="0" z="-3.585101"/>    
+					<object type="primitive" name="sphere">   
+					<reflective r="0.8" g="0.6" b="0.6"/>
+					<diffuse r=" 0.970672" g=" 0.131626" b=" 0.297861"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.083077" y="0.083077" z="0.083077"/>	
+					<translate x="-8.853724" y="0" z="2.138676"/>    
+					<object type="primitive" name="sphere">    
+					<reflective r="0.8" g="0.6" b="0.6"/>
+					<diffuse r=" 0.991607" g=" 0.0157476" b=" 0.735984"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.075806" y="0.075806" z="0.075806"/>	
+					<translate x="-8.348338" y="0" z="-9.628651"/>    
+					<object type="primitive" name="sphere">    
+					<reflective r="0.8" g="0.6" b="0.6"/>
+					<diffuse r=" 0.125553" g=" 0.379254" b=" 0.97763"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.069522" y="0.069522" z="0.069522"/>	
+					<translate x="4.153874" y="0" z="-1.434370"/>    
+					<object type="primitive" name="sphere">    
+					<reflective r="0.8" g="0.6" b="0.6"/>
+					<diffuse r=" 0.918729" g=" 0.644429" b=" 0.597339"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.084589" y="0.084589" z="0.084589"/>	
+					<translate x="6.097904" y="0" z="-2.953887"/>    
+					<object type="primitive" name="sphere">    
+					<reflective r="0.8" g="0.6" b="0.6"/>
+					<diffuse r=" 0.358867" g=" 0.211432" b=" 0.983581"/>	
+					</object>    
+				</transblock>
+				<transblock name="sphere">	
+					<scale x="0.393003" y="0.393003" z="0.393003"/>	
+					<translate x="0.860928" y="0" z="-6.976439"/>    
+					<object type="primitive" name="sphere">    
+					<reflective r="0.8" g="0.6" b="0.6"/>
+					<diffuse r=" 0.169744" g=" 0.454695" b=" 0.0867031"/>	
+					</object>
+					</transblock>
+					</object>
+					</scenefile>
