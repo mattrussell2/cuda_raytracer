@@ -1,9 +1,7 @@
 # cuda_raytracer
 
 A recursive ray tracer written in C++ and Cuda C 
-
 by Matt Russell
-
 May 2019
 
 This is a recursive ray tracer written in C++ and Cuda C. 
