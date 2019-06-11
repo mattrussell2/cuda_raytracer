@@ -11,8 +11,10 @@ It requires a [cuda gpu](https://developer.nvidia.com/cuda-gpus)\
 When running, simply type a name of any of the xml files in the data folder [i.e. "cones.xml"].\
 Default recursion depth is 50.\
 \
-Feel free to generate your own cool scene files.\
-\
 With gratitude to Remco Chang from Tufts for teaching the graphics course, along with and Roger Alan and Peter Shirley for their great guides on cuda and ray tracing, respectively. Also to those who wrote various bits of the scene parsing code for xml files and ppm files - Nong Li, Remco Chang, Michael Shah, Eric Tamura, Yves Berquin, Tyge Løvset, and Lee Thomason.\
 \
-Also thanks to Rohan Deshpande and Ashley Suh, my project partners.
+Also thanks to Rohan Deshpande and Ashley Suh, my project partners for the bulk of the project.\
+\
+\
+\
+
