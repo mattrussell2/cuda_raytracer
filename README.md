@@ -20,7 +20,7 @@ Also thanks to Rohan Deshpande and Ashley Suh, my project partners for the bulk 
 ![cones start](./images/cones_start.png)
 ![cones move](./images/cones_move.png)
 ![cubes](./images/cubes.png)
-
+![chessboard](./images/chessboard.png)
 
 
 
