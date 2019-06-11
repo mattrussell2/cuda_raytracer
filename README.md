@@ -4,11 +4,12 @@ A recursive ray tracer written in C++ and Cuda C\
 by Matt Russell\
 May 2019\
 \
-It was done for a final project in the comp175 graphics course at Tufts.\
+I completed this as an extension of a final project in the graphics course at Tufts [175].\
 \
 The code relies on fltk for the graphical interface, and uses glm for standard matrix/vector operations.\
-When running, simply type a name of any of the xml files in the data folder.\
-Recursion depth is set to 50 as a default.\
+It requires a [cuda gpu](https://developer.nvidia.com/cuda-gpus)\
+When running, simply type a name of any of the xml files in the data folder [i.e. "cones.xml"].\
+Default recursion depth is 50.\
 \
 Feel free to generate your own cool scene files.\
 \
