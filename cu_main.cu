@@ -212,7 +212,7 @@ glm::vec3* runCuda(Camera *camera, primitive *primitiveList, int numPrimitives,
 	checkCudaErrors(cudaMallocManaged((void **)&d_lightList, sizeof(SceneLightData) * numLights));
 	checkCudaErrors(cudaMemcpy(d_lightList, lightList, sizeof(SceneLightData) * numLights, cudaMemcpyHostToDevice));
 		
-	int recursionDepth = 50;
+	int recursionDepth = 5;
 	
 	glm::vec3 *rOrigins, *rRays, *rNormals, *rIntersections;
 	float *rTvals; primitive **rPrimitives;
