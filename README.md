@@ -15,7 +15,7 @@ With gratitude to Remco Chang from Tufts for teaching the graphics course, along
 \
 Also thanks to Rohan Deshpande and Ashley Suh, my project partners for the bulk of the project.\
 \
-(./images/spheres.png)
+![spheres](./images/spheres.png)
 
 
 
