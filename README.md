@@ -21,7 +21,8 @@ Also thanks to Rohan Deshpande and Ashley Suh, my project partners for the bulk 
 ![spheres](./images/spheres.png)
 
 ![cones start](./images/cones_start.png)
-![cones move](./images/cones_move.png)
+![cones move](./images/cones_move.png)\
+Moving around the image.\
 ![cubes](./images/cubes.png)
 ![chessboard](./images/chessboard.png)
 
