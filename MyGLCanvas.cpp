@@ -19,7 +19,7 @@ MyGLCanvas::MyGLCanvas(int x, int y, int w, int h, const char *l) : Fl_Gl_Window
 	
 	//xml_generator::generate_xml();	
 	string filename;
-	cout << "enter a filename: ";
+	cout << "[chessboard.xml, cones.xml, cornell_box.xml, dk_side_moon.xml, mirror_test1.xml, reflective_cubes.xml, robot.xml, shadow_test.xml, spheres.xml, spheres_test.xml'] \nenter a filename: ";
 	cin >> filename; cout << endl;	
 	loadSceneFile(("./data/" + filename).c_str());
 	setPixels();				
@@ -63,7 +63,7 @@ void MyGLCanvas::loadSceneFile(const char* filenamePath)
 		filenamePath = ("./data/" + fname).c_str();
 		delete parser;
 		parser = new SceneParser(filenamePath);
-		bool success = parser->parse();				
+		success = parser->parse();			
 	}	
 	cout << "success! " << endl;
 	SceneCameraData cameraData;
