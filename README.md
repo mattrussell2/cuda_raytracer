@@ -10,7 +10,11 @@ The code relies on fltk for the gui, and uses glm for standard matrix/vector ope
 It requires a [cuda gpu](https://developer.nvidia.com/cuda-gpus)\
 The load times below are with a geforce gtx 1080.\
 \
-When running, simply type a name of any of the xml files in the data folder [i.e. "cones.xml"].\
+Feel free to build yourself (make sure to build fltk for x64), or simply run the executable.\
+\
+When running, simply type a name of any of the xml files listed [i.e. "cones.xml"].\
+\
+Once the image has loaded, you can 'fly' around the scene with wasd keys - the image will reload in near-realtime.\
 \
 Default recursion depth is 50.\
 \
