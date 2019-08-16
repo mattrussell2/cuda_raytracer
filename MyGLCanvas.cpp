@@ -58,7 +58,7 @@ void MyGLCanvas::loadSceneFile(const char* filenamePath)
 
 	while (success == false) {	
 		string fname;
-		cout << "no success. enter a new filename: " << endl;
+		cout << "no success. enter a new filename: ";
 		cin >> fname; 
 		filenamePath = ("./data/" + fname).c_str();
 		delete parser;
