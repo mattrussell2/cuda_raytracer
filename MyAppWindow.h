@@ -6,18 +6,14 @@
 #include <math.h>
 #include <FL/Fl.H>
 #include <FL/Fl_Window.H>
-#include <FL/Fl_Button.H>
-#include <FL/Fl_Pack.H>
-#include <FL/Fl_Check_Button.H>
-#include <FL/Fl_Round_Button.H>
-#include <FL/Fl_Value_Slider.H>
 #include <FL/Fl_File_Chooser.H>
 #include <FL/Fl_Gl_Window.H>
 #include <FL/names.h>
 #include <FL/gl.h>
-#include <FL/glut.h>
+#include <FL/glut.H>
 #include <FL/glu.h>
 
+#include <FL/Fl_Window.H>
 #include "MyGLCanvas.h"
 #include "screen.h"
 class MyAppWindow;

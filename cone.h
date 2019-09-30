@@ -1,7 +1,7 @@
 #ifndef CONE_H
 #define CONE_H
 
-#include "Shape.h"
+#include "shape.h"
 #include<math.h>
 using namespace std;
 

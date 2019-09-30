@@ -806,7 +806,7 @@ void TiXmlDocument::SetError( int err, const char* pError, TiXmlParsingData* dat
     assert( err > 0 && err < TIXML_ERROR_STRING_COUNT );
     error   = true;
     errorId = err;
-    errorDesc = errorString[ errorId ];
+    //errorDesc = errorString[ errorId ];
 
     errorLocation.Clear();
     if ( pError && data )

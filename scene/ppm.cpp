@@ -7,13 +7,14 @@
 	Purpose: 
 	Usage:	
 	===================================================== */
-#include "windows.h"
+//#include "windows.h"
 #include <FL/gl.h>
 #include <iostream>
 #include <string>
 #include <fstream>
 #include "ppm.h"
-
+#include<stdio.h> 
+#include<string.h> 
 /*	===============================================
 Desc:	Default constructor for a ppm
 Precondition: _fileName is the image file name. It is also expected that the file is of type "ppm"

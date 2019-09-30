@@ -2,7 +2,7 @@
 #define MYGLCANVAS_H
 
 #include <FL/gl.h>
-#include <FL/glut.h>
+#include <FL/glut.H>
 #include <FL/glu.h>
 #include <glm/glm.hpp>
 #include <glm/gtc/type_ptr.hpp>
@@ -15,7 +15,8 @@
 #include "node.h"
 #include "MyGLCanvas.h"
 #include "screen.h"
-
+#include <FL/Fl_Gl_Window.H>
+#include <FL/Fl_Window.H>
 
 class MyGLCanvas : public Fl_Gl_Window {
 public:
