@@ -161,10 +161,7 @@ __global__ void render(glm::vec3 *d_finalColors, int max_x, int max_y,
 	primitive *p;
 	rOrigins[start] = eyePoint;
 	rRays[start] = glm::normalize(world_space_pt - eyePoint);
-
-	getIntersection(rOrigins[start],rRays[start], t, intersection, normal, p, d_primitiveList, d_numPrimitives);
-	
-	/*for (int i = 0; i < recursionDepth; i++) {		
+	for (int i = 0; i < recursionDepth; i++) {		
 		getIntersection(rOrigins[start + i],rRays[start + i], t, intersection, normal, p, d_primitiveList, d_numPrimitives);
 		rTvals[start + i] = t;                                   //t value of the current ray
 		if (t < 0) break;                                        //base case (didn't hit anything)	
@@ -179,18 +176,16 @@ __global__ void render(glm::vec3 *d_finalColors, int max_x, int max_y,
 			rOrigins[start + i + 1] = intersection;                       //save these values for the next 'recursive' call
 			rRays[start + i + 1] = reflectiveRay;
 		}
-	}*/	
+	}	
 
 	//now we've got a structure with information for each step of the way. work from the back to front and add up the lighting info.
 	glm::vec3 final_color(0.0f); 	
 	glm::vec3 local_color;			
 	for (int i = recursionDepth - 1; i >= 0; i--) {	
 		if (rTvals[start + i] < 0) continue;		
-		std::cout << "HIT!" << std::endl;
-		/*local_color = calcPhongLight(rOrigins[start + i], rRays[start + i], rTvals[start+i], rIntersections[start+i], rNormals[start+i], rPrimitives[start+i],
+		local_color = calcPhongLight(rOrigins[start + i], rRays[start + i], rTvals[start+i], rIntersections[start+i], rNormals[start+i], rPrimitives[start+i],
 									 d_primitiveList, d_numPrimitives, d_lightList, d_numLights, SGD);
-		final_color = local_color + SGD.ks * rPrimitives[start + i]->reflective * final_color;					*/
-		final_color = glm::vec3(1.0f, 1.0f, 1.0f);
+		final_color = local_color + SGD.ks * rPrimitives[start + i]->reflective * final_color;					
 	}	
 	d_finalColors[pixel_index] = final_color;
 };
@@ -199,7 +194,7 @@ __global__ void render(glm::vec3 *d_finalColors, int max_x, int max_y,
 glm::vec3* runCuda(Camera *camera, primitive *primitiveList, int numPrimitives, 
 				   SceneLightData *lightList, int numLights, SceneGlobalData SGD) { 
 
-	checkCudaErrors(cudaSetDevice(1));
+	checkCudaErrors(cudaSetDevice(0));
 	checkCudaErrors(cudaDeviceReset());
 	
 	int nx = screenWidth;
@@ -217,7 +212,7 @@ glm::vec3* runCuda(Camera *camera, primitive *primitiveList, int numPrimitives,
 	checkCudaErrors(cudaMallocManaged((void **)&d_lightList, sizeof(SceneLightData) * numLights));
 	checkCudaErrors(cudaMemcpy(d_lightList, lightList, sizeof(SceneLightData) * numLights, cudaMemcpyHostToDevice));
 		
-	int recursionDepth = 1;
+	int recursionDepth = 5;
 	
 	glm::vec3 *rOrigins, *rRays, *rNormals, *rIntersections;
 	float *rTvals; primitive **rPrimitives;
@@ -251,7 +246,7 @@ glm::vec3* runCuda(Camera *camera, primitive *primitiveList, int numPrimitives,
 	dim3 threads(tx, ty);
 
 	render <<< blocks, threads >>> (d_finalColors, nx, ny, rOrigins, rRays, rNormals, rIntersections, rTvals, rPrimitives,
-					eye_point, inverse_transform, d_primitiveList, numPrimitives, d_lightList, numLights, SGD, recursionDepth);
+								    eye_point, inverse_transform, d_primitiveList, numPrimitives, d_lightList, numLights, SGD, recursionDepth);
 		
 	checkCudaErrors(cudaDeviceSynchronize());
 		

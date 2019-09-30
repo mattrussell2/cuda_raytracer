@@ -2,10 +2,7 @@
 #include<stdio.h>
 
 Camera::Camera() {
-  x = glm::vec3(1.0f, 0.0f, 0.0f);
-  y = glm::vec3(0.0f, 1.0f, 0.0f);
-  z = glm::vec3(0.0f, 0.0f, 1.0f);
-  reset();
+	reset();
 }
 
 Camera::~Camera() {

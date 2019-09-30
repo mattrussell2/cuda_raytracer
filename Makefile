@@ -3,10 +3,8 @@ CUDA=/usr/local/cuda-9.0/include/
 CUDA_HELPER=/usr/local/cuda-9.0/include/cuda-samples/Common
 INC_ALL=${INC} ${CUDA} ${INC} ${CUDA_HELPER}
 CCFLAG=-std=c++11
-#FLFLAG=-I/home/matt/Desktop/cuda_raytracer/FL/
 FLCXX=-I/home/matt/Desktop/cuda_raytracer/glm -I/usr/local/include -I/usr/include/freetype2 -I/usr/include/libpng16 -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_THREAD_SAFE -D_REENTRANT
-#FLXTRA=
-LKFLAG=-L/usr/local/lib -lfltk -lXrender -lXcursor -lXfixes -lXext -lXft -lfontconfig -lXinerama -lpthread -ldl -lm -lX11 `fltk-config --use-forms --use-gl --use-images --ldflags` #-L/home/matt/Desktop/cuda_raytracer/lib -lfltk -lXext -lX11 -lm
+LKFLAG=-L/usr/local/lib -lfltk -lXrender -lXcursor -lXfixes -lXext -lXft -lfontconfig -lXinerama -lpthread -ldl -lm -lX11 `fltk-config --use-forms --use-gl --use-images --ldflags` 
 
 ppm.o:
 	nvcc $(CCFLAG) -o ppm.o -c scene/ppm.cpp

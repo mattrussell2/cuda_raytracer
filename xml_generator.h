@@ -12,7 +12,7 @@
 using namespace std;
 
 
-static class xml_generator {
+class xml_generator {
 
 	static const int MAX_SPHERES = 500;
 public:

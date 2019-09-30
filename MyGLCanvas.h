@@ -15,8 +15,7 @@
 #include "node.h"
 #include "MyGLCanvas.h"
 #include "screen.h"
-#include <FL/Fl_Gl_Window.H>
-#include <FL/Fl_Window.H>
+
 
 class MyGLCanvas : public Fl_Gl_Window {
 public:

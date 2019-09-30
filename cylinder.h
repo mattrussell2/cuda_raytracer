@@ -1,6 +1,9 @@
 #ifndef CYLINDER_H
 #define CYLINDER_H
 
+//const float EPSILON = 1e-5;
+#define IN_RANGE(a,b)   (((a>(b-1e-4))&&(a<(b+1e-4)))?1:0)
+
 class cylinder {
 public:
 	__device__ cylinder() {}

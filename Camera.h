@@ -49,29 +49,31 @@ public:
 	int getScreenHeight();	
 
 private:
-  float viewAngle, filmPlanDepth;
-  float nearPlane, farPlane;
-  int screenWidth, screenHeight;
-  float screenWidthRatio;
-  
-  //defined by me	
-  void calc_basis_vectors(glm::vec3, glm::vec3);
-  void calc_rotation_matrix();
-  void calc_translation_matrix(glm::vec3 v);
-  glm::vec3 u, v, w;
+	float viewAngle, filmPlanDepth;
+	float nearPlane, farPlane;
+	int screenWidth, screenHeight;
+	float screenWidthRatio;
 
-  glm::vec3 x, y, z;
-  
-  glm::mat4 unhinging_matrix;
-  glm::mat4 scaling_matrix;
-  glm::mat4 rotation_matrix;
-  glm::mat4 translation_matrix;
-  glm::mat4 inverse_scaling_matrix;
-  glm::mat4 inverse_modelview_matrix;
-  
-  glm::vec3 eye_point;
-  glm::vec3 look_vector;
-  glm::vec3 up_vector;	
+	//defined by me	
+	void calc_basis_vectors(glm::vec3, glm::vec3);
+	void calc_rotation_matrix();
+	void calc_translation_matrix(glm::vec3 v);
+	glm::vec3 u, v, w;
+
+	glm::vec3 x = glm::vec3(1.0f, 0.0f, 0.0f);
+	glm::vec3 y = glm::vec3(0.0f, 1.0f, 0.0f);
+	glm::vec3 z = glm::vec3(0.0f, 0.0f, 1.0f);
+
+	glm::mat4 unhinging_matrix;
+	glm::mat4 scaling_matrix;
+	glm::mat4 rotation_matrix;
+	glm::mat4 translation_matrix;
+	glm::mat4 inverse_scaling_matrix;
+	glm::mat4 inverse_modelview_matrix;
+
+	glm::vec3 eye_point;
+	glm::vec3 look_vector;
+	glm::vec3 up_vector;	
 };
 #endif
 

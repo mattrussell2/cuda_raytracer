@@ -1,6 +1,6 @@
 #include "MyGLCanvas.h"
 #include "cuda_wrapper_implementation.h"
-//#include "xml_generator.h"
+#include "xml_generator.h"
 #define NUM_OPENGL_LIGHTS 8
 using namespace std;
 MyGLCanvas::MyGLCanvas(int x, int y, int w, int h, const char *l) : Fl_Gl_Window(x, y, w, h, l) 
@@ -95,9 +95,9 @@ void MyGLCanvas::loadSceneFile(const char* filenamePath)
 	primitiveList = new primitive[numPrimitives];		
 	int currNode = 0;
 	for (int i = 0;i < nodes.size();i++) {		
-		for (int j = 0;j < nodes.at(i)->primitives.size();j++) {
-			primitiveList[currNode] = primitive(nodes.at(i)->primitives.at(j));
-			currNode++;			
+		for (int j = 0;j < nodes.at(i)->primitives.size();j++) {								
+			primitiveList[currNode] = primitive(nodes.at(i)->primitives.at(j));			
+			currNode++;
 		}
 	}	
 }
@@ -114,7 +114,7 @@ void MyGLCanvas::setPixels() {
 			pixel_index = j * width + i;
 			r = min(255, (int)(255.0f * colors[pixel_index].x));
 			g = min(255, (int)(255.0f * colors[pixel_index].y));
-			b = min(255, (int)(255.0f * colors[pixel_index].z));			
+			b = min(255, (int)(255.0f * colors[pixel_index].z));						
 			setpixel(pixels, i, j, r, g, b);
 		}
 	}
