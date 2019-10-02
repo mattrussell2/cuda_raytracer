@@ -7,7 +7,7 @@ May 2019\
 This is an extension of a final project in the graphics course at Tufts [175].\
 \
 The code relies on fltk for the gui, and uses glm for standard matrix/vector operations.\
-It requires a [cuda gpu](https://developer.nvidia.com/cuda-gpus)\
+It requires a [cuda-capable gpu](https://developer.nvidia.com/cuda-gpus)\
 The load times below are with a geforce gtx 1080.\
 \
 Feel free to build yourself (make sure to build fltk for x64), or simply run the executable (compatible with x64 windows systems).\
