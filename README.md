@@ -10,7 +10,7 @@ The code relies on fltk for the gui, and uses glm for standard matrix/vector ope
 It requires a [cuda gpu](https://developer.nvidia.com/cuda-gpus)\
 The load times below are with a geforce gtx 1080.\
 \
-Feel free to build yourself (make sure to build fltk for x64), or simply run the executable.\
+Feel free to build yourself (make sure to build fltk for x64), or simply run the executable (compatible with x64 windows systems).\
 \
 Once an image has loaded, you can 'fly' around the scene with wasd keys - the image will reload in near-realtime.\
 \
