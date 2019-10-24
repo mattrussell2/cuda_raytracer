@@ -12,6 +12,8 @@ The load times below are with a geforce gtx 1080.\
 \
 Feel free to build yourself (make sure to build fltk for x64), or simply run the executable (compatible with x64 windows systems).\
 \
+The 'ubuntu' branch has code built on Ubuntu 18.04\
+\
 Once an image has loaded, you can 'fly' around the scene with wasd keys - the image will reload in near-realtime.\
 \
 Default recursion depth is 50.\
