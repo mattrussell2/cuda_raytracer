@@ -6,6 +6,8 @@ CCFLAG=-std=c++11
 FLCXX=-I/home/matt/Desktop/cuda_raytracer/glm -I/usr/local/include -I/usr/include/freetype2 -I/usr/include/libpng16 -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_THREAD_SAFE -D_REENTRANT
 LKFLAG=-L/usr/local/lib -lfltk -lXrender -lXcursor -lXfixes -lXext -lXft -lfontconfig -lXinerama -lpthread -ldl -lm -lX11 `fltk-config --use-forms --use-gl --use-images --ldflags` 
 
+build: raytracer
+
 ppm.o:
 	nvcc $(CCFLAG) -o ppm.o -c scene/ppm.cpp
 
@@ -34,7 +36,7 @@ main.o:
 	nvcc $(CCFLAG) $(FLCXX) -c main.cpp
 
 raytracer: main.o canvas.o camera.o cu_main.o tinyxmlparser.o sceneparser.o tinyxml.o tinystr.o ppm.o
-	nvcc $(CCFLAG) $(FLCXX) main.o canvas.o camera.o cu_main.o tinyxmlparser.o sceneparser.o tinyxml.o tinystr.o ppm.o ${INC_ALL} ${LKFLAG}
+	nvcc $(CCFLAG) $(FLCXX) main.o canvas.o camera.o cu_main.o tinyxmlparser.o sceneparser.o tinyxml.o tinystr.o ppm.o ${INC_ALL} ${LKFLAG} -lGL -lGLU
 
 clean:
 	rm *.o
